@@ -1,7 +1,6 @@
 .Overview {
   height: -moz-fit-content;
   height: fit-content;
-  border: 6px solid green;
 }
 .Overview .OverviewContainer1 {
   display: flex;
@@ -11,14 +10,12 @@
   width: 90%;
   margin: 0 auto;
   list-style: none;
-  border: 3px solid rgb(2, 120, 135);
   justify-content: space-evenly;
 }
 .Overview .OverviewContainer1 .OverviewContainerSub1 {
   position: relative;
   width: 550px;
   height: 800px;
-  border: 3px solid rgb(22, 30, 111);
 }
 @media (max-width: 560px) {
   .Overview .OverviewContainer1 .OverviewContainerSub1 {
@@ -75,20 +72,13 @@
     background-size: 294px 382px;
   }
 }
-.Overview .OverviewContainer13 .OverviewContainerSub1 {
-  border: 2px solid green;
-}
 .Overview .OverviewContainer13 .OverviewContainer1Text {
   height: 700px;
 }
 @media (max-width: 1239px) {
   .Overview .OverviewContainer13 .OverviewContainer1Text {
     height: 1400px;
-    border: 1px solid red;
   }
-}
-.Overview .OverviewContainer13 .OverviewContainer1Text .head {
-  border: 1px solid red;
 }
 .Overview .OverviewContainer13 .OverviewContainer1Text .head .label {
   height: 86px;
@@ -122,7 +112,6 @@
     font-weight: 700;
     line-height: 26.6px;
     text-align: center;
-    border: 1px solid red;
   }
 }
 .Overview .OverviewContainer13 .OverviewContainer1Text .text {
@@ -152,7 +141,6 @@
 @media (max-width: 1239px) {
   .Overview .OverviewContainer13 .OverviewContainer1Text .text .label {
     height: 200px;
-    border: 1px solid green;
   }
   .Overview .OverviewContainer13 .OverviewContainer1Text .text .label .innovation-and {
     text-align: center;

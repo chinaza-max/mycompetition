@@ -20,7 +20,6 @@
   color: white;
   width: 398px;
   text-align: left;
-  border: 1px solid blue;
 }
 @media (max-width: 1239px) {
   .Card h2 {

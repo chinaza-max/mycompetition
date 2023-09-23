@@ -4,7 +4,6 @@
   min-height: fit-content;
 }
 .Quote .container {
-  border: 2px solid red;
   margin-top: 50px;
 }
 @media (max-width: 700px) {

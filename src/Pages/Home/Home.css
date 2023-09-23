@@ -5,7 +5,6 @@
 .Home .HomeComtainer1 {
   height: -moz-fit-content;
   height: fit-content;
-  border: 3px solid red;
   border-bottom: white 1px solid;
   background-image: url("../../assets/images/Purple-Lens-Flare-PNG (3).png"), url("../../assets/images/metrix 1.png");
   background-size: 1086px 836px, 1164px 801px;
@@ -381,7 +380,4 @@
     background-size: 500px 300px, 334px 321px, 396px 396px;
     background-position: center center;
   }
-}
-.Home .HomeOview {
-  border: 1px solid red;
 }/*# sourceMappingURL=Home.css.map */

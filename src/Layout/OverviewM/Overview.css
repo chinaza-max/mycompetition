@@ -1,0 +1,189 @@
+.Overview {
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 6px solid green;
+}
+.Overview .OverviewContainer1 {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+  border: 3px solid rgb(2, 120, 135);
+  justify-content: space-evenly;
+}
+.Overview .OverviewContainer1 .OverviewContainerSub1 {
+  position: relative;
+  width: 550px;
+  height: 800px;
+  border: 3px solid rgb(22, 30, 111);
+}
+@media (max-width: 560px) {
+  .Overview .OverviewContainer1 .OverviewContainerSub1 {
+    width: 100%;
+  }
+}
+.Overview .OverviewLine {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
+.Overview .OverviewContainer11 .OverviewContainer1Img {
+  background-image: url("../../assets/images/light.png");
+  background-size: 490px 477px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+@media (max-width: 867px) {
+  .Overview .OverviewContainer11 .OverviewContainer1Img {
+    background-size: 264px 257px;
+  }
+}
+.Overview .OverviewContainer11 .OverviewContainer1Img .centeredElement {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 867px) {
+  .Overview .OverviewContainer11 .OverviewContainer1Img .centeredElement {
+    background-size: 264px 257px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+.Overview .OverviewContainer12 {
+  flex-wrap: wrap-reverse;
+}
+.Overview .OverviewContainer12 .OverviewContainer1Img {
+  background-image: url("../../assets/images/girl.png");
+  background-size: 664px 664px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 867px) {
+  .Overview .OverviewContainer12 .OverviewContainer1Img {
+    background-size: 294px 382px;
+  }
+}
+.Overview .OverviewContainer13 .OverviewContainerSub1 {
+  border: 2px solid green;
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text {
+  height: 700px;
+}
+@media (max-width: 1239px) {
+  .Overview .OverviewContainer13 .OverviewContainer1Text {
+    height: 1400px;
+    border: 1px solid red;
+  }
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .head {
+  border: 1px solid red;
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .head .label {
+  height: 86px;
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .head .label .judging-criteria-key {
+  color: transparent;
+  font-family: "ClashDisplay-Bold";
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .head .label .text-wrapper {
+  color: #ffffff;
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .head .label .span {
+  color: #d434fe;
+}
+@media (max-width: 1239px) {
+  .Overview .OverviewContainer13 .OverviewContainer1Text .head {
+    text-align: center;
+  }
+  .Overview .OverviewContainer13 .OverviewContainer1Text .head .label {
+    height: 54px;
+    width: 100%;
+  }
+  .Overview .OverviewContainer13 .OverviewContainer1Text .head .label .judging-criteria-key {
+    color: transparent;
+    font-family: "ClashDisplay-Bold";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.6px;
+    text-align: center;
+    border: 1px solid red;
+  }
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .text {
+  margin-top: 20px;
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .text .label {
+  height: 75px;
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .text .label .innovation-and {
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 27.8px;
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .text .label .text-wrapper {
+  color: #ff25b8;
+  font-weight: 700;
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .text .label .span {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 24.3px;
+}
+@media (max-width: 1239px) {
+  .Overview .OverviewContainer13 .OverviewContainer1Text .text .label {
+    height: 200px;
+    border: 1px solid green;
+  }
+  .Overview .OverviewContainer13 .OverviewContainer1Text .text .label .innovation-and {
+    text-align: center;
+  }
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .text3 .label {
+  height: 99px;
+}
+@media (max-width: 1239px) {
+  .Overview .OverviewContainer13 .OverviewContainer1Text .text3 .label {
+    height: 300px;
+  }
+}
+.Overview .OverviewContainer13 .OverviewContainer1Text .button {
+  margin-top: 100px;
+}
+@media (max-width: 1239px) {
+  .Overview .OverviewContainer13 .OverviewContainer1Text .button {
+    margin: 0 auto;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.Overview .OverviewContainer13 .OverviewContainer1Img {
+  background-image: url("../../assets/images/manAndWoman.png");
+  background-size: 710px 587px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 867px) {
+  .Overview .OverviewContainer13 .OverviewContainer1Img {
+    background-size: 332px 275px;
+  }
+}/*# sourceMappingURL=Overview.css.map */

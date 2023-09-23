@@ -1,0 +1,65 @@
+.Card {
+  padding-top: 120px;
+  height: 285px;
+  width: 527px;
+}
+@media (max-width: 1239px) {
+  .Card {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 560px) {
+  .Card {
+    width: 100%;
+    padding-top: 55px;
+  }
+}
+.Card h2 {
+  font-family: "ClashDisplay-Bold";
+  font-size: 32px;
+  color: white;
+  width: 398px;
+  text-align: left;
+  border: 1px solid blue;
+}
+@media (max-width: 1239px) {
+  .Card h2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 867px) {
+  .Card h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 560px) {
+  .Card h2 {
+    width: 100%;
+  }
+}
+.Card .CardColored {
+  margin-top: 10px;
+  color: #d434fe;
+}
+.Card P {
+  color: white;
+  font-size: 14px;
+  line-height: 27.5px;
+  font-family: "Montserrat", sans-serif;
+  width: 527px;
+  margin-top: 16px;
+}
+@media (max-width: 1239px) {
+  .Card P {
+    text-align: center;
+    margin: 16px auto 0 auto;
+  }
+}
+@media (max-width: 560px) {
+  .Card P {
+    width: 321px;
+  }
+}/*# sourceMappingURL=Card.css.map */

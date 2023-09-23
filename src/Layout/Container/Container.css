@@ -1,0 +1,9 @@
+.Container {
+  background-color: hsl(256, 48%, 11%);
+  padding-top: 141px;
+}
+@media (max-width: 867px) {
+  .Container {
+    padding-top: 70px;
+  }
+}/*# sourceMappingURL=Container.css.map */

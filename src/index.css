@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+@font-face {
+  font-family: 'ClashDisplay-Bold';
+  src: url('./assets/myfont/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.woff2') format('woff2'),
+       url('./assets/myfont/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.woff') format('woff'),
+       url('./assets/myfont/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+:root {
+  --primary-color: #903AFF;
+  --text-color2: #150E28;
+  --text-color3: #903AFF;
+  --text-color4: #903AFF;
+  --font-family-clash-display:'ClashDisplay-Bold';
+  --font-size-logo: 36px;
+  --font-size-logo-m: 15px;
+  --font-size-nav: 16px;
+  --font-size-nav-m: 18px;
+  --font-size3: 36px;
+  --font-size3-m: 16px;
+  --font-size4: 80px;
+  --font-size4-m: 32px;
+  --font-size5: 20px;
+  --font-size5-m: 13px;
+  --font-size-button-text: 16px;
+  --font-size-button-text-m: 14px;
+  --font-size-button-text-m2: 12px;
+  --font-size6: 64px;
+  --font-size6-m: 80px;
+  --font-size-title: 32px;
+  --font-size-title2: 24px;
+  --font-size-title3: 30px;
+  --font-size-title3: 32px;
+  --font-size-title-m: 20px;
+  --font-size-title-m: 12px;
+  --font-size-text: 14px;
+  --font-size-text2: 12px;
+  --font-size-text3: 16px;
+  --font-size-text-m: 13px;
+  --font-size-text-m2: 12px;
+  --font-size-text-m3: 14px;
+  --font-size-text-m4: 10px;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}

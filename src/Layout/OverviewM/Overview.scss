@@ -1,0 +1,200 @@
+.Overview{
+    height: fit-content;
+    border: 6px solid green;
+    .OverviewContainer1{
+        display: flex;
+        padding: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+        list-style: none;
+        border: 3px solid rgb(2, 120, 135);
+        justify-content:space-evenly;
+      
+        .OverviewContainerSub1{
+            position: relative;
+            width: 550px;
+            height: 800px;
+            border: 3px solid rgb(22, 30, 111);
+            @media (max-width:560px) {
+                width: 100%;
+            }
+        }
+    }
+    .OverviewLine{
+        height: 1px;
+        width: 100%;
+        background-color: #ffff;
+    }
+    .OverviewContainer11{
+        .OverviewContainer1Img{
+            background-image:   url('../../assets/images/light.png');
+            background-size:490px 477px; 
+            background-position: center center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            @media (max-width:867px) {
+                background-size:264px 257px; 
+            }
+            .centeredElement {
+                padding: 5px;
+                margin-left: auto; 
+                margin-right: auto; 
+                font-size: 24px;
+                font-weight: 700;
+                color: #ffffff;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                @media (max-width:867px) {
+                    background-size:264px 257px;
+                    font-size: 14px;
+                    font-weight: 700; 
+                }
+            }
+        }
+    }
+    .OverviewContainer12{
+        flex-wrap: wrap-reverse;
+        .OverviewContainer1Img{
+            background-image:   url('../../assets/images/girl.png');
+            background-size:664px 664px ; 
+            background-position: center center;
+            background-repeat: no-repeat;
+            @media (max-width:867px) {
+                background-size:294px 382px  ; 
+            }
+        }
+    }
+    .OverviewContainer13{
+        .OverviewContainerSub1{
+            border: 2px solid   green;
+        }
+        .OverviewContainer1Text{
+            height: 700px;
+           // width: 450px;
+            @media (max-width:1239px) {
+                height: 1400px;
+               // width: 236px;
+                border: 1px solid red;
+            }
+            .head{
+                border: 1px solid red;
+                .label {
+                    height: 86px;
+                  //  width: 267px;
+                }
+                
+                .label .judging-criteria-key {
+                    color: transparent;
+                    font-family:"ClashDisplay-Bold";
+                    font-size: 32px;
+                    font-weight: 700;
+                    letter-spacing: 0;
+                    line-height: 32px;
+                    
+                }
+                
+                .label .text-wrapper {
+                    color: #ffffff;
+                }
+                
+                .label .span {
+                    color: #d434fe;
+                }
+
+                @media (max-width:1239px) {
+                    text-align: center;
+                    .label {
+                        height: 54px;
+                        width: 100%;
+                    }
+                    
+                    .label .judging-criteria-key {
+                        color: transparent;
+                        font-family: "ClashDisplay-Bold";
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 26.6px;
+                        text-align: center;
+                        border: 1px solid red;
+                    }
+                    
+            
+                    
+                }
+                
+            }
+            .text{
+
+                margin-top: 20px;
+                .label {
+                    height: 75px;
+                   // width: 533px;
+                }
+                
+                .label .innovation-and {
+                    color: transparent;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 0;
+                    line-height: 27.8px;
+                }
+                
+                .label .text-wrapper {
+                    color: #ff25b8;
+                    font-weight: 700;
+                }
+                
+                .label .span {
+                    color: #ffffff;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    line-height: 24.3px;
+                }
+                @media (max-width:1239px) {
+                    .label {
+                        height:200px ;
+                       // width: 400px;
+                        border: 1px solid green;
+                       // width: 236px;
+                    }
+                    .label .innovation-and {
+                        text-align: center;
+                    }
+                }
+            }  
+            .text3{
+                .label {
+                    height: 99px;
+                 //   width: 533px;
+                    @media (max-width:1239px) {
+                        height: 300px;
+                       // width: 236px;
+                    }
+                }
+            } 
+            .button{
+                margin-top: 100px;
+                @media (max-width:1239px) {
+                    margin: 0 auto;
+                    width: fit-content;
+                }
+            }
+        }
+        .OverviewContainer1Img{
+            background-image:   url('../../assets/images/manAndWoman.png');
+            background-size:710px 587px ; 
+            background-position: center center;
+            background-repeat: no-repeat;
+            @media (max-width:867px) {
+                background-size:332px 275px  ; 
+            }
+          //  width: 650px;
+
+        }
+    }
+}   

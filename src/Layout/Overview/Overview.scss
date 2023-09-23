@@ -1,0 +1,216 @@
+.Overview{
+
+    background-image:url('../../assets/images/Purple-Lens-Flare-PNG (5).png'),url('../../assets/images/Purple-Lens-Flare-PNG.png');
+    background-size:1037px 948px,404px 959px ; 
+    background-position: -10% 160%, 100%  185%;
+    background-repeat: no-repeat;
+
+    .OverviewContainer{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        width: fit-content;
+        height: fit-content;
+        overflow: hidden;
+        margin: 0 auto;
+        border-bottom: #ffff 1px solid;
+        @media (max-width:867px) {
+            flex-direction: column;
+            height: 719px;
+        }
+        >li{
+            border: 1px solid red;
+            min-width: 600px;
+            height: 600px;
+            flex: 1;
+         
+        }
+      
+        .OverviewContainer11{
+            background-image:   url('../../assets/images/light.png');
+            background-size:490px 477px; 
+            background-position: center center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            @media (max-width:867px) {
+                background-size:264px 257px; 
+            }
+            .centered-element {
+                padding: 5px;
+                margin-left: auto; 
+                margin-right: auto; 
+                font-size: 24px;
+                font-weight: 700;
+                color: #ffffff;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                @media (max-width:867px) {
+                    background-size:264px 257px;
+                    font-size: 14px;
+                    font-weight: 700; 
+                }
+            }
+            .OverviewContainer11Element{
+                position: relative;
+                .img1{
+                    position:absolute;
+                }
+                .img11{
+                    height: 25px;
+                    width: 21px;
+                    left: -551px;
+                    top: -89px;
+                    @media (max-width:867px) {
+                        height: 13px;
+                        width: 11px;
+                        left: -291px;
+                        top: -49px;
+                    }
+                }
+                .img12{
+                    height: 66px;
+                    width: 71px;
+                    left: -113px;
+                    top: 232px;
+                    @media (max-width:867px) {
+                        height: 26px;
+                        width: 28px;
+                        left: -159px;
+                        top: 121px;
+                    }
+                }
+                
+            }
+        }
+        .OverviewContainer22{
+            background-image:   url('../../assets/images/girl.png');
+            background-size:664px 664px ; 
+            background-position: center center;
+            background-repeat: no-repeat;
+            @media (max-width:867px) {
+                background-size:294px 382px  ; 
+            }
+
+        }
+        .OverviewContainerText{
+            position: relative;
+            .img11{
+                position: absolute;
+                height: 30px;
+                width: 30px;
+                left: 391px;
+                top: 227px;
+                @media (max-width:867px) {
+                    height: 13px;
+                    width: 11px;
+                    left: 303px;
+                    top: 101px;
+                }
+            }     
+        }
+        .OverviewContainer21{
+            background-position: center center;
+            position: relative;
+            .img11{
+                position: absolute;
+                height: 32px;
+                width: 26px;
+                left: 272px;
+                top: 68px;
+            } 
+            .img12{
+                position: absolute;
+                height: 32px;
+                width: 26px;
+                left: 556px;
+                top: 397px;
+            } 
+        }
+    }
+    .Overview1{
+        @media (max-width:1226px) {
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+      
+        .OverviewContainerText{
+             .Card{
+               // width: fit-content;
+                margin: 0 auto;
+                padding-top: 80px;
+                height: 350px;
+              
+                >h2{
+                    width: 100%;
+                    @media (max-width:867px) {
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 26.6px; 
+                    }
+                }
+                p{
+                    height: 168px;
+                     @media (max-width:1130px) {
+                        margin: 0 auto;
+                    }
+                    @media (max-width:867px) {
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 27.5px; 
+                    }
+
+                }
+            }
+        }
+        .Overview .OverviewContainer > li {
+            height: 527px;
+        }
+    }
+    .Overview2{
+      
+        >li{
+            overflow: hidden;
+        }
+        @media (max-width:1424px) {
+            flex-wrap:wrap;
+            flex-direction: row;
+            height: 1200px;
+            @media (max-width:867px) {
+                height: 1106px;
+                //height: fit-content;
+            }
+            .OverviewContainer21{
+                .Card{
+                    width: fit-content;
+                    margin: 0 auto;
+                    padding-top: 80px;
+                    height: 350px;
+                    >h2{
+                        width: 100%;
+                       // text-align: center;
+                    }
+/*
+                    p{
+                        height: 107px;
+                        width: 321px;
+                        @media (max-width:867px) {
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 27.5px; 
+                        }
+                    }*/
+                }
+
+            }
+        }
+        @media (max-width:867px) {
+            .OverviewContainer22{
+                height: 300px;
+            }
+        }
+      
+    }
+}

@@ -1,0 +1,374 @@
+.Home{
+    height: fit-content;
+    .HomeComtainer1{
+        height: fit-content;
+        border: 3px solid red;
+        border-bottom: #ffff 1px solid;
+        .HomeComtainer2{
+            
+            background-color: transparent;
+            .label{
+                width: 100%;
+                @media (max-width:867px) {
+                    padding-top: 39px;
+                }
+                .text-wrapper {
+                    text-align: right;
+                    color: #ffffff;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 36px;
+                    font-style: italic;
+                    font-weight: 700;
+                    margin-right: 79px;
+                    @media (max-width:867px) {
+                        font-size: 16px;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+                .image-wrapper{
+                    width: 200px;
+                    float: right;
+                    @media (max-width:867px) {
+                        float: none; 
+                        margin: 0 auto; 
+                        width: 300px;
+                    }
+                    .curve{
+                           height: 16px;
+                           width: 254px;
+                           float: right;
+                           margin-top:20px ;
+                           margin-right:79px ;
+                           @media (max-width:867px) {
+                            width: 115px;
+                            margin-right:10px ;
+                            margin-top:10px ;
+                            height: 7px;
+                           }
+                          
+                       }
+                }
+               
+            }
+
+           
+        }
+        background-image: url('../../assets/images/Purple-Lens-Flare-PNG (3).png'), url('../../assets/images/metrix\ 1.png');
+        background-size: 1086px 836px ,1164px 801px; 
+        background-position: -20% -300px, 90% -300px;
+        background-repeat: no-repeat;
+        @media (max-width:867px) {
+            background-size: 396px 442px ,1164px 801px; 
+            background-position: -200% -30px, 90% -300px;
+        }   
+
+        .HomeComtainer4{
+            list-style: none;
+            padding: 0px ;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            @media (max-width:867px) {
+                margin-left: 0px;
+                flex-direction:column;
+
+            }
+            .HomeComtainer42{
+                margin-left: 50px;
+                @media (max-width:867px) {
+                    margin-left: 0px; 
+                    overflow: hidden;   
+                }
+                .HomeComtainer3{
+                    margin-top: 199px;
+                    list-style: none;
+                    padding: 0;
+                    width: 600px;
+                    @media (max-width:867px) {
+                        margin-top: 58px;
+                        margin-left: 0px;
+                        margin: 58px  auto  0 auto;
+                        width: 100%;
+                    }
+                    >li{
+                        >div{
+                            position: relative;
+                            .label {
+                                height: 98px;
+                                width: 569px;
+                                @media (max-width:867px) {
+                                    height: 37px;
+                                    width: 281px;
+                                    margin: 0 auto;
+        
+                                }
+                            }
+                            .label .hackathon {
+                                color: transparent;
+                                font-family: "ClashDisplay-Bold";
+                                font-size: 80px;
+                                font-weight: 700;
+                                margin: 0;
+                                position:relative;
+                    
+                                .image1{
+                                    height: 86px;
+                                    width: 86px;
+                                    position: absolute;
+                                    top: 0px;
+                                    right: -90px;
+                                    img{
+                                        height: 86px;
+                                        position: absolute;
+                                        top: 0px;
+                                        right: 0px;
+                                        width: 86px;
+                                    }
+                                     @media (max-width:867px) {
+                                        height: 32px;
+                                        width: 32px;
+                                        img{
+                                            height: 32px;
+                                            width: 32px;
+                                            right: 110px;
+                                            top: 2px;
+                                        }
+                                    }
+
+                                }
+                                .image2{
+                                    height: 86px;
+                                    width: 86px;
+                                    position: absolute;
+                                    top: 0px;
+                                    right: -170px;
+                                    img{
+                                        height: 86px;
+                                        width: 86px;
+                                    }
+                                    @media (max-width:867px) {
+                                        height: 22.12px;
+                                        width: 22.12px;
+                                        right: -3px;
+                                        top: 0px;
+                                        img{
+                                            height: 22.12px;
+                                            width: 22.12px;
+                                          
+                                        }
+                                    }
+                                }
+                                .image3{
+                                    height: 53px;
+                                    width: 73px;
+                                    position: absolute;
+                                    top: -160px;
+                                    right: 0px;
+                                    img{
+                                        height: 53px;
+                                        width: 73px;
+                                    }
+                                    @media (max-width:867px) {
+                                        height: 26px;
+                                        width: 18px;
+                                        right: 37px;
+                                        top: -60px;
+                                        img{
+                                            height: 26px;
+                                            width: 18px;                                           
+                                        }
+                                    }
+                                }
+                                .image4{
+                                    height: 53px;
+                                    width: 73px;
+                                    position: absolute;
+                                    top: -300px;
+                                    right: 240px;
+                                    img{
+                                        height: 53px;
+                                        width: 73px;
+                                    }
+                                    @media (max-width:867px) {
+                                       display: none;
+                                    }
+                                }
+                                .image5{
+                                    height: 32px;
+                                    width: 26px;
+                                    position: absolute;
+                                    top: -300px;
+                                    right: 380px;
+                                    img{
+                                        height: 32px;
+                                        width: 26px;
+                                    }
+                                    @media (max-width:867px) {
+                                        height: 12px;
+                                        width: 10px;
+                                        right: 214px;
+                                        top: -89px;
+                                        img{
+                                            height: 10px;
+                                            width: 12px;
+                                           
+                                        }
+                                    }
+                                }
+                                .image6{
+                                    height: 32px;
+                                    width: 26px;
+                                    position: absolute;
+                                    top: 230px;
+                                    right: 100px;
+                                    img{
+                                        height: 32px;
+                                        width: 26px;
+                                    }
+                                    @media (max-width:867px) {
+                                        height: 12px;
+                                        width: 10px;
+                                        right: -16px;
+                                        top: -89px;
+                                        img{
+                                            height: 10px;
+                                            width: 12px;
+                                           
+                                        }
+                                    }
+                                }
+                                .image7{
+                                    display: none;
+                                    
+                                    img{
+                                        height: 32px;
+                                        width: 26px;
+                                    }
+                                    @media (max-width:867px) {
+                                        display: inline-block;
+                                        position: absolute;
+                                        height: 12px;
+                                        width: 10px;
+                                        right: 12px;
+                                        top: 116px;
+                                        img{
+                                            height: 10px;
+                                            width: 12px;
+                                           
+                                        }
+                                    }
+                                }
+
+                                @media (max-width:867px) {
+                                    font-size: 32px;
+                                    text-align: center;
+                                    margin: 0 auto;
+                                    margin-left: -50px;
+                                }
+                                
+                            }
+                            .label .text-wrapper {
+                                color: #ffffff;
+                            }
+                            .label .span {
+                                color: #d434fe;
+                            }
+                        }
+                        h2{
+                            font-family: "ClashDisplay-Bold";
+                            font-size: 80px;
+                            font-weight: 700;
+                            color: #ffff;
+                            @media (max-width:867px) {
+                                font-size: 32px;
+                                text-align: center;
+                            }
+                        }
+                        >p{
+                           width: 520px;
+                           font-family: 'Montserrat', sans-serif;
+                           font-size: 20px;
+                           font-weight: 400;
+                           color: #ffffff;
+                           @media (max-width:867px) {
+                            color: #ffffff;
+                            font-size: 13px;
+                            font-weight: 400;
+                            text-align: center;
+                            height: 44px;
+                            width: 264px;
+                            margin: 9px    auto   0   auto;
+                            
+                        }
+        
+                        }
+                    }
+                    .button{
+                        margin-top: 41px;
+                        >div{
+                            @media (max-width:867px) {
+                                margin-top: 24px;
+                                width: fit-content;
+                                margin: 0 auto;
+                            }
+                            
+                        }
+                    }
+                    .count{
+                       ul{
+                        height: 85px;
+                        width: 285px;
+                        margin-top: 77px;
+                        display:  flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        list-style: none;
+                        padding: 0px;
+                        color: #ffffff;
+                        font-family: 'Unica One', cursive;
+        
+                        @media (max-width:867px) {
+                            margin: 0 auto;
+                            margin-top: 14.6px;
+                            width: 214px;
+                        }
+                        li{
+        
+                            span{
+                                font-size: 64px;
+                                font-weight: 400;
+                                @media (max-width:867px) {
+                                    font-size: 48px;
+                                }
+                            }
+                        }
+                       }
+                    }
+                }
+            }
+            .HomeComtainer43{
+                flex-grow: 1;
+                background-image:   url('../../assets/images/Purple-Lens-Flare-PNG (4).png'),url('../../assets/images/Image 1.png'),url('../../assets/images/man-wearing-smart-glasses-touching-virtual-screen 1.png') ;
+                background-size:951px 600px, 667px 641px ,  600px 590px ; 
+                background-position: -200px 0px, -10px 30px, 30px 110px;
+                background-repeat: no-repeat;
+                @media (max-width:867px) {
+                    height: 367px;
+                    width: 100%;
+                    background-size:500px 300px, 334px 321px ,  396px 396px ; 
+            //       background-position: 0px 200px, 0px 0px, 0px 0px;
+                    background-position: center center;
+                }
+              
+            }
+            
+
+        }
+ 
+    }
+    .HomeOview{
+        border: 1px solid red;
+    }
+}
+

@@ -1,0 +1,224 @@
+.Overview {
+  background-image: url("../../assets/images/Purple-Lens-Flare-PNG (5).png"), url("../../assets/images/Purple-Lens-Flare-PNG.png");
+  background-size: 1037px 948px, 404px 959px;
+  background-position: -10% 160%, 100% 185%;
+  background-repeat: no-repeat;
+}
+.Overview .OverviewContainer {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow: hidden;
+  margin: 0 auto;
+  border-bottom: white 1px solid;
+}
+@media (max-width: 867px) {
+  .Overview .OverviewContainer {
+    flex-direction: column;
+    height: 719px;
+  }
+}
+.Overview .OverviewContainer > li {
+  border: 1px solid red;
+  min-width: 600px;
+  height: 600px;
+  flex: 1;
+}
+.Overview .OverviewContainer .OverviewContainer11 {
+  background-image: url("../../assets/images/light.png");
+  background-size: 490px 477px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+@media (max-width: 867px) {
+  .Overview .OverviewContainer .OverviewContainer11 {
+    background-size: 264px 257px;
+  }
+}
+.Overview .OverviewContainer .OverviewContainer11 .centered-element {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 867px) {
+  .Overview .OverviewContainer .OverviewContainer11 .centered-element {
+    background-size: 264px 257px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+.Overview .OverviewContainer .OverviewContainer11 .OverviewContainer11Element {
+  position: relative;
+}
+.Overview .OverviewContainer .OverviewContainer11 .OverviewContainer11Element .img1 {
+  position: absolute;
+}
+.Overview .OverviewContainer .OverviewContainer11 .OverviewContainer11Element .img11 {
+  height: 25px;
+  width: 21px;
+  left: -551px;
+  top: -89px;
+}
+@media (max-width: 867px) {
+  .Overview .OverviewContainer .OverviewContainer11 .OverviewContainer11Element .img11 {
+    height: 13px;
+    width: 11px;
+    left: -291px;
+    top: -49px;
+  }
+}
+.Overview .OverviewContainer .OverviewContainer11 .OverviewContainer11Element .img12 {
+  height: 66px;
+  width: 71px;
+  left: -113px;
+  top: 232px;
+}
+@media (max-width: 867px) {
+  .Overview .OverviewContainer .OverviewContainer11 .OverviewContainer11Element .img12 {
+    height: 26px;
+    width: 28px;
+    left: -159px;
+    top: 121px;
+  }
+}
+.Overview .OverviewContainer .OverviewContainer22 {
+  background-image: url("../../assets/images/girl.png");
+  background-size: 664px 664px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 867px) {
+  .Overview .OverviewContainer .OverviewContainer22 {
+    background-size: 294px 382px;
+  }
+}
+.Overview .OverviewContainer .OverviewContainerText {
+  position: relative;
+}
+.Overview .OverviewContainer .OverviewContainerText .img11 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 391px;
+  top: 227px;
+}
+@media (max-width: 867px) {
+  .Overview .OverviewContainer .OverviewContainerText .img11 {
+    height: 13px;
+    width: 11px;
+    left: 303px;
+    top: 101px;
+  }
+}
+.Overview .OverviewContainer .OverviewContainer21 {
+  background-position: center center;
+  position: relative;
+}
+.Overview .OverviewContainer .OverviewContainer21 .img11 {
+  position: absolute;
+  height: 32px;
+  width: 26px;
+  left: 272px;
+  top: 68px;
+}
+.Overview .OverviewContainer .OverviewContainer21 .img12 {
+  position: absolute;
+  height: 32px;
+  width: 26px;
+  left: 556px;
+  top: 397px;
+}
+@media (max-width: 1226px) {
+  .Overview .Overview1 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+.Overview .Overview1 .OverviewContainerText .Card {
+  margin: 0 auto;
+  padding-top: 80px;
+  height: 350px;
+}
+.Overview .Overview1 .OverviewContainerText .Card > h2 {
+  width: 100%;
+}
+@media (max-width: 867px) {
+  .Overview .Overview1 .OverviewContainerText .Card > h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.6px;
+  }
+}
+.Overview .Overview1 .OverviewContainerText .Card p {
+  height: 168px;
+}
+@media (max-width: 1130px) {
+  .Overview .Overview1 .OverviewContainerText .Card p {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 867px) {
+  .Overview .Overview1 .OverviewContainerText .Card p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27.5px;
+  }
+}
+.Overview .Overview1 .Overview .OverviewContainer > li {
+  height: 527px;
+}
+.Overview .Overview2 > li {
+  overflow: hidden;
+}
+@media (max-width: 1424px) {
+  .Overview .Overview2 {
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 1200px;
+  }
+}
+@media (max-width: 1424px) and (max-width: 867px) {
+  .Overview .Overview2 {
+    height: 1106px;
+  }
+}
+@media (max-width: 1424px) {
+  .Overview .Overview2 .OverviewContainer21 .Card {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 80px;
+    height: 350px;
+    /*
+                        p{
+                            height: 107px;
+                            width: 321px;
+                            @media (max-width:867px) {
+                                font-size: 13px;
+                                font-weight: 400;
+                                line-height: 27.5px; 
+                            }
+                        }*/
+  }
+  .Overview .Overview2 .OverviewContainer21 .Card > h2 {
+    width: 100%;
+  }
+}
+@media (max-width: 867px) {
+  .Overview .Overview2 .OverviewContainer22 {
+    height: 300px;
+  }
+}/*# sourceMappingURL=Overview.css.map */

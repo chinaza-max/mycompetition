@@ -1,0 +1,387 @@
+.Home {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.Home .HomeComtainer1 {
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 3px solid red;
+  border-bottom: white 1px solid;
+  background-image: url("../../assets/images/Purple-Lens-Flare-PNG (3).png"), url("../../assets/images/metrix 1.png");
+  background-size: 1086px 836px, 1164px 801px;
+  background-position: -20% -300px, 90% -300px;
+  background-repeat: no-repeat;
+}
+.Home .HomeComtainer1 .HomeComtainer2 {
+  background-color: transparent;
+}
+.Home .HomeComtainer1 .HomeComtainer2 .label {
+  width: 100%;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer2 .label {
+    padding-top: 39px;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer2 .label .text-wrapper {
+  text-align: right;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+  margin-right: 79px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer2 .label .text-wrapper {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer2 .label .image-wrapper {
+  width: 200px;
+  float: right;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer2 .label .image-wrapper {
+    float: none;
+    margin: 0 auto;
+    width: 300px;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer2 .label .image-wrapper .curve {
+  height: 16px;
+  width: 254px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 79px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer2 .label .image-wrapper .curve {
+    width: 115px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 7px;
+  }
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 {
+    background-size: 396px 442px, 1164px 801px;
+    background-position: -200% -30px, 90% -300px;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 {
+    margin-left: 0px;
+    flex-direction: column;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 {
+  margin-left: 50px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 {
+    margin-left: 0px;
+    overflow: hidden;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 {
+  margin-top: 199px;
+  list-style: none;
+  padding: 0;
+  width: 600px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 {
+    margin-top: 58px;
+    margin-left: 0px;
+    margin: 58px auto 0 auto;
+    width: 100%;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div {
+  position: relative;
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label {
+  height: 98px;
+  width: 569px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label {
+    height: 37px;
+    width: 281px;
+    margin: 0 auto;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon {
+  color: transparent;
+  font-family: "ClashDisplay-Bold";
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+  position: relative;
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image1 {
+  height: 86px;
+  width: 86px;
+  position: absolute;
+  top: 0px;
+  right: -90px;
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image1 img {
+  height: 86px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 86px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image1 {
+    height: 32px;
+    width: 32px;
+  }
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image1 img {
+    height: 32px;
+    width: 32px;
+    right: 110px;
+    top: 2px;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image2 {
+  height: 86px;
+  width: 86px;
+  position: absolute;
+  top: 0px;
+  right: -170px;
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image2 img {
+  height: 86px;
+  width: 86px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image2 {
+    height: 22.12px;
+    width: 22.12px;
+    right: -3px;
+    top: 0px;
+  }
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image2 img {
+    height: 22.12px;
+    width: 22.12px;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image3 {
+  height: 53px;
+  width: 73px;
+  position: absolute;
+  top: -160px;
+  right: 0px;
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image3 img {
+  height: 53px;
+  width: 73px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image3 {
+    height: 26px;
+    width: 18px;
+    right: 37px;
+    top: -60px;
+  }
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image3 img {
+    height: 26px;
+    width: 18px;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image4 {
+  height: 53px;
+  width: 73px;
+  position: absolute;
+  top: -300px;
+  right: 240px;
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image4 img {
+  height: 53px;
+  width: 73px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image4 {
+    display: none;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image5 {
+  height: 32px;
+  width: 26px;
+  position: absolute;
+  top: -300px;
+  right: 380px;
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image5 img {
+  height: 32px;
+  width: 26px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image5 {
+    height: 12px;
+    width: 10px;
+    right: 214px;
+    top: -89px;
+  }
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image5 img {
+    height: 10px;
+    width: 12px;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image6 {
+  height: 32px;
+  width: 26px;
+  position: absolute;
+  top: 230px;
+  right: 100px;
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image6 img {
+  height: 32px;
+  width: 26px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image6 {
+    height: 12px;
+    width: 10px;
+    right: -16px;
+    top: -89px;
+  }
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image6 img {
+    height: 10px;
+    width: 12px;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image7 {
+  display: none;
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image7 img {
+  height: 32px;
+  width: 26px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image7 {
+    display: inline-block;
+    position: absolute;
+    height: 12px;
+    width: 10px;
+    right: 12px;
+    top: 116px;
+  }
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon .image7 img {
+    height: 10px;
+    width: 12px;
+  }
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .hackathon {
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: -50px;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .text-wrapper {
+  color: #ffffff;
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > div .label .span {
+  color: #d434fe;
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li h2 {
+  font-family: "ClashDisplay-Bold";
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > p {
+  width: 520px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 > li > p {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    height: 44px;
+    width: 264px;
+    margin: 9px auto 0 auto;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 .button {
+  margin-top: 41px;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 .button > div {
+    margin-top: 24px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 .count ul {
+  height: 85px;
+  width: 285px;
+  margin-top: 77px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0px;
+  color: #ffffff;
+  font-family: "Unica One", cursive;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 .count ul {
+    margin: 0 auto;
+    margin-top: 14.6px;
+    width: 214px;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 .count ul li span {
+  font-size: 64px;
+  font-weight: 400;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer42 .HomeComtainer3 .count ul li span {
+    font-size: 48px;
+  }
+}
+.Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer43 {
+  flex-grow: 1;
+  background-image: url("../../assets/images/Purple-Lens-Flare-PNG (4).png"), url("../../assets/images/Image 1.png"), url("../../assets/images/man-wearing-smart-glasses-touching-virtual-screen 1.png");
+  background-size: 951px 600px, 667px 641px, 600px 590px;
+  background-position: -200px 0px, -10px 30px, 30px 110px;
+  background-repeat: no-repeat;
+}
+@media (max-width: 867px) {
+  .Home .HomeComtainer1 .HomeComtainer4 .HomeComtainer43 {
+    height: 367px;
+    width: 100%;
+    background-size: 500px 300px, 334px 321px, 396px 396px;
+    background-position: center center;
+  }
+}
+.Home .HomeOview {
+  border: 1px solid red;
+}/*# sourceMappingURL=Home.css.map */

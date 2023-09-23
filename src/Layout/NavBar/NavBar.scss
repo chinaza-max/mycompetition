@@ -1,0 +1,274 @@
+.NavBar{
+    border-bottom: 1px solid  #FFFFFF;
+    height: 141px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: #150e28;
+    background-image: url('../../assets/images/Purple-Lens-Flare-PNG (3).png');
+    background-size: 1086px 836px;
+    background-position: -40% 0px;
+    background-repeat: no-repeat;
+    z-index: 5;
+    @media (max-width:867px) {
+      height: 69px;
+    }
+    .contactBack{
+      .closeMenuP{
+        position: relative;
+        text-align: center;
+        display: block;
+        margin-top: 47px;
+        margin-left: 50px;
+        img{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .cross{
+          height: 11px;
+          width: 11px;
+          
+        }
+        .closeCircle{
+          height: 23px;
+          width:  23px;
+        }
+      } 
+      >h2{
+        color: #d434fe;
+        font-family: "ClashDisplay-Bold";
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 24px;
+        margin-left: 67px;
+      }
+    }
+    >ul{
+        padding: 0px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: 0px 128px 0px 128px;
+        height: 100%;
+        >li{
+            flex: 1;
+        }
+       @media (max-width:1163px) {
+        margin: 0px 20px 0px 20px;
+      }
+    
+    }
+    >ul {
+      .logo{
+        min-width:80px;
+        .label .getlinked {
+          color: transparent;
+          font-family: "ClashDisplay-Bold";
+          font-size: 36px;
+          font-weight: 700;
+          text-shadow: 0px 4px 4px #00000040;
+          @media (max-width:867px) {
+            font-size: 15px;
+            font-weight: 700;
+            margin-left: 58px;
+          }
+         
+        }
+        .label .text-wrapper {
+          color: #ffffff;
+        }
+        .label .span {
+          color: #d434fe;
+        }
+        .label {
+         height: 100%;
+         p{
+           margin-top: 67px;
+           @media (max-width:867px) {
+            margin-top: 28px;
+          }
+          
+         }
+        }
+      }
+
+
+
+
+      .menu{
+        display: none;
+        @media (max-width:867px) {
+          display: block;
+          position: relative;
+          .menuIcon{
+            width: fit-content;
+            height: 14px;
+            width: 19px;
+            
+            position: absolute;
+            margin-top: 34px;
+            right: 48px;
+            span{
+              display: inline-block;
+              width: fit-content;
+              img{
+                height: 14px;
+                width: 19px;
+              }
+            }
+            
+          }
+       }
+       .removeMenu{
+        display: none;
+        height: 493px;
+       }
+       >ul{
+        list-style: none;
+        padding: 0;
+        justify-content:space-evenly;
+        -webkit-backdrop-filter: blur(60px) brightness(100%);
+        backdrop-filter: blur(60px) brightness(100%);
+        background-color: #150e28;
+        border: 0.5px solid;
+        border-color: #ffffff0a;
+        border-radius: 8px;
+        height: 493px;
+        right: 0px;
+        top: 0px;
+        width: 348px;
+        position: fixed;
+        >li{
+          margin-left: 47px;
+        }
+        .linkContainer{
+          ul{
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction:column;
+            margin-top: 119px;
+            li{
+              display:block;
+              a{
+                text-decoration: none;
+                color: #ffffff;
+                font-family: "Indium", Helvetica;
+                font-size: 18px;
+                font-weight: 500;
+              }
+              .active{
+                -webkit-background-clip: text !important;
+                -webkit-text-fill-color: transparent;
+                background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(255, 37.9, 184.51) 100%);
+                background-clip: text;
+                color: transparent;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+              }   
+            }
+            :nth-child(2){
+              margin-top: 20px;
+            }
+            :nth-child(3){
+              margin-top: 20px;
+            }
+            :nth-child(4){
+              margin-top: 20px;
+            }
+            :nth-child(5){
+              margin-top: 20px;
+            }
+          }
+          .closeMenu{
+            position: absolute;
+            top: 45px;
+            right:57px;  
+           
+            .closeMenuP{
+              position: relative;
+              text-align: center;
+              display: block;
+              img{
+                color: #FFFFFF;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+              .cross{
+                height: 11px;
+                width: 11px;
+                
+              }
+              .closeCircle{
+                height: 23px;
+                width:  23px;
+              }
+            }       
+            
+          }
+        }
+        .buttonM{
+          margin-top: 29px;
+        }
+       }
+      }
+
+
+
+      .linksContainer{
+        @media (max-width:867px) {
+          display: none;
+        }
+        >ul{
+          width: 400px;
+          padding: 0px;
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          justify-content:space-evenly;
+          margin: 79px  auto 0px auto;
+         
+          >li{
+            a{
+              text-decoration: none;
+              color: #ffff;
+              font-family: 'Montserrat', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+            }
+            .active{
+              -webkit-background-clip: text !important;
+              -webkit-text-fill-color: transparent;
+              background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(255, 37.9, 184.51) 100%);
+              background-clip: text;
+              color: transparent;
+              font-family: 'Montserrat', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+            }         
+          }
+        }
+        
+      }
+    .button{
+      min-width:80px;
+      text-align: right;
+      position: relative;
+      >div{
+        position: absolute; 
+        height:fit-content;
+        margin-top:63px;
+        right:0px
+      }
+      @media (max-width:867px) {
+        display: none;
+      }
+    }
+
+  }
+}

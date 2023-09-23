@@ -1,0 +1,43 @@
+.box {
+  all: unset;
+  box-sizing: border-box;
+  height: 53px;
+  width: 172px;
+  text-align: none;
+}
+
+.box .register-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 53px;
+  width: 174px;
+}
+
+.box .overlap-group {
+  background: linear-gradient(225deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 56.42%, rgb(255, 38, 185) 99.99%, rgb(254, 52, 185) 100%);
+  border-radius: 4px;
+  height: 53px;
+  width: 172px;
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+
+.box .overlap-group:hover {
+  background-color: rgb(0, 128, 255);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.box .overlap-group:active {
+  background-color: rgb(0, 64, 128);
+  transform: scale(0.95);
+}
+
+.box .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  left: 52px;
+}/*# sourceMappingURL=Button.css.map */

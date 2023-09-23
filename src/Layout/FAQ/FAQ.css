@@ -1,0 +1,81 @@
+.FAQ .FAQcontainer {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+  border: 3px solid rgb(2, 120, 135);
+  justify-content: space-evenly;
+}
+.FAQ .FAQcontainer > li {
+  width: 550px;
+  height: 600px;
+  border: 3px solid rgb(22, 30, 111);
+}
+.FAQ .FAQcontainer .FAQcontainerText {
+  padding-top: 20px;
+}
+.FAQ .FAQcontainer .FAQcontainerText .hearder .label {
+  height: 86px;
+  width: 253px;
+}
+.FAQ .FAQcontainer .FAQcontainerText .hearder .label .frequently-ask {
+  color: transparent;
+  font-family: "Clash Display-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+.FAQ .FAQcontainer .FAQcontainerText .hearder .label .text-wrapper {
+  color: #ffffff;
+}
+.FAQ .FAQcontainer .FAQcontainerText .hearder .label .span {
+  color: #d434fe;
+}
+.FAQ .FAQcontainer .FAQcontainerText .text {
+  border: 2px solid blue;
+}
+.FAQ .FAQcontainer .FAQcontainerText .text .label {
+  height: 55px;
+  width: 342px;
+}
+.FAQ .FAQcontainer .FAQcontainerText .text .label .we-got-answers-to {
+  color: #ffffff;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 27.5px;
+}
+@media (max-width: 867px) {
+  .FAQ .FAQcontainer .FAQcontainerText .text .label .we-got-answers-to {
+    font-size: 12px;
+    line-height: 27.5px;
+  }
+}
+.FAQ .FAQcontainer .FAQcontainerText .text .label .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 27.5px;
+}
+.FAQ .FAQcontainer .FAQcontainerText .text .label .span {
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+}
+.FAQ .FAQcontainer .FAQcontainerImg {
+  background-image: url("../../assets/images/cwok_casual_21 1.png");
+  background-size: 490px 477px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1239px) {
+  .FAQ .FAQcontainer .FAQcontainerImg {
+    background-size: 327px 327px;
+  }
+}/*# sourceMappingURL=FAQ.css.map */

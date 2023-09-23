@@ -1,0 +1,262 @@
+.NavBar {
+  border-bottom: 1px solid #FFFFFF;
+  height: 141px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: #150e28;
+  background-image: url("../../assets/images/Purple-Lens-Flare-PNG (3).png");
+  background-size: 1086px 836px;
+  background-position: -40% 0px;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+@media (max-width: 867px) {
+  .NavBar {
+    height: 69px;
+  }
+}
+.NavBar .contactBack .closeMenuP {
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-top: 47px;
+  margin-left: 50px;
+}
+.NavBar .contactBack .closeMenuP img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.NavBar .contactBack .closeMenuP .cross {
+  height: 11px;
+  width: 11px;
+}
+.NavBar .contactBack .closeMenuP .closeCircle {
+  height: 23px;
+  width: 23px;
+}
+.NavBar .contactBack > h2 {
+  color: #d434fe;
+  font-family: "ClashDisplay-Bold";
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-left: 67px;
+}
+.NavBar > ul {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0px 128px 0px 128px;
+  height: 100%;
+}
+.NavBar > ul > li {
+  flex: 1;
+}
+@media (max-width: 1163px) {
+  .NavBar > ul {
+    margin: 0px 20px 0px 20px;
+  }
+}
+.NavBar > ul .logo {
+  min-width: 80px;
+}
+.NavBar > ul .logo .label .getlinked {
+  color: transparent;
+  font-family: "ClashDisplay-Bold";
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
+}
+@media (max-width: 867px) {
+  .NavBar > ul .logo .label .getlinked {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 58px;
+  }
+}
+.NavBar > ul .logo .label .text-wrapper {
+  color: #ffffff;
+}
+.NavBar > ul .logo .label .span {
+  color: #d434fe;
+}
+.NavBar > ul .logo .label {
+  height: 100%;
+}
+.NavBar > ul .logo .label p {
+  margin-top: 67px;
+}
+@media (max-width: 867px) {
+  .NavBar > ul .logo .label p {
+    margin-top: 28px;
+  }
+}
+.NavBar > ul .menu {
+  display: none;
+}
+@media (max-width: 867px) {
+  .NavBar > ul .menu {
+    display: block;
+    position: relative;
+  }
+  .NavBar > ul .menu .menuIcon {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 14px;
+    width: 19px;
+    position: absolute;
+    margin-top: 34px;
+    right: 48px;
+  }
+  .NavBar > ul .menu .menuIcon span {
+    display: inline-block;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .NavBar > ul .menu .menuIcon span img {
+    height: 14px;
+    width: 19px;
+  }
+}
+.NavBar > ul .menu .removeMenu {
+  display: none;
+  height: 493px;
+}
+.NavBar > ul .menu > ul {
+  list-style: none;
+  padding: 0;
+  justify-content: space-evenly;
+  -webkit-backdrop-filter: blur(60px) brightness(100%);
+  backdrop-filter: blur(60px) brightness(100%);
+  background-color: #150e28;
+  border: 0.5px solid;
+  border-color: rgba(255, 255, 255, 0.0392156863);
+  border-radius: 8px;
+  height: 493px;
+  right: 0px;
+  top: 0px;
+  width: 348px;
+  position: fixed;
+}
+.NavBar > ul .menu > ul > li {
+  margin-left: 47px;
+}
+.NavBar > ul .menu > ul .linkContainer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 119px;
+}
+.NavBar > ul .menu > ul .linkContainer ul li {
+  display: block;
+}
+.NavBar > ul .menu > ul .linkContainer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Indium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+}
+.NavBar > ul .menu > ul .linkContainer ul li .active {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(255, 38, 185) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.NavBar > ul .menu > ul .linkContainer ul :nth-child(2) {
+  margin-top: 20px;
+}
+.NavBar > ul .menu > ul .linkContainer ul :nth-child(3) {
+  margin-top: 20px;
+}
+.NavBar > ul .menu > ul .linkContainer ul :nth-child(4) {
+  margin-top: 20px;
+}
+.NavBar > ul .menu > ul .linkContainer ul :nth-child(5) {
+  margin-top: 20px;
+}
+.NavBar > ul .menu > ul .linkContainer .closeMenu {
+  position: absolute;
+  top: 45px;
+  right: 57px;
+}
+.NavBar > ul .menu > ul .linkContainer .closeMenu .closeMenuP {
+  position: relative;
+  text-align: center;
+  display: block;
+}
+.NavBar > ul .menu > ul .linkContainer .closeMenu .closeMenuP img {
+  color: #FFFFFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.NavBar > ul .menu > ul .linkContainer .closeMenu .closeMenuP .cross {
+  height: 11px;
+  width: 11px;
+}
+.NavBar > ul .menu > ul .linkContainer .closeMenu .closeMenuP .closeCircle {
+  height: 23px;
+  width: 23px;
+}
+.NavBar > ul .menu > ul .buttonM {
+  margin-top: 29px;
+}
+@media (max-width: 867px) {
+  .NavBar > ul .linksContainer {
+    display: none;
+  }
+}
+.NavBar > ul .linksContainer > ul {
+  width: 400px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 79px auto 0px auto;
+}
+.NavBar > ul .linksContainer > ul > li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.NavBar > ul .linksContainer > ul > li .active {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(255, 38, 185) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.NavBar > ul .button {
+  min-width: 80px;
+  text-align: right;
+  position: relative;
+}
+.NavBar > ul .button > div {
+  position: absolute;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 63px;
+  right: 0px;
+}
+@media (max-width: 867px) {
+  .NavBar > ul .button {
+    display: none;
+  }
+}/*# sourceMappingURL=NavBar.css.map */

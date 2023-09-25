@@ -15,12 +15,32 @@ import Price from '../../Layout/Price/Price';
 import Partner from '../../Layout/Partner/Partner';
 import Privacy from "../../Layout/Privacy/Privacy"
 import Footer from "../../Layout/Footer/Footer"
+import   { useRef } from 'react';
+
 
 
 export default function Home() {
+
+  const sectionRef = useRef(null);
+  
+
+
+
+
+
+
+
+
+
+
+  const scrollToSection = () => {
+    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
+
   return (
     <div className='Home'>
-      <NavBar/>
+      <NavBar  scrollToSectionP={scrollToSection} />
        
       <div className='HomeComtainer1'>
 
@@ -138,7 +158,7 @@ export default function Home() {
 
       </div>
 
-      <div className='HomeOview' >
+      <div className='HomeOview'   id="scrollSection" ref={sectionRef} >
       <Overview/>
       </div>
 

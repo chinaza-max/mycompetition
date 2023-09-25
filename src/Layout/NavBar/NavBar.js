@@ -9,8 +9,7 @@ import { useNavigate} from 'react-router-dom';
 
 
 
-
-export default function NavBar() {
+export default function NavBar(props) {
     const [toggleMenu,setToggleMenu]=useState(true);
     const navigate = useNavigate();
 
@@ -62,13 +61,13 @@ export default function NavBar() {
                     </li>
 
                     <li className='links links2'>
-                        <NavLink to={"/keke"}>
+                        <NavLink to={"/Home"}>
                             Overview    
                         </NavLink>
                     </li>
 
                     <li className='links links2'>
-                        <NavLink to={"/loel"}>
+                        <NavLink to={"/Home"}>
                         FAQs 
 
                         </NavLink>

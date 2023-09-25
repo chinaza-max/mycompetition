@@ -72,6 +72,11 @@
     background-size: 294px 382px;
   }
 }
+.Overview .OverviewContainer13 {
+  /*   .OverviewContainerSub1{
+         border: 2px solid   green;
+     }*/
+}
 .Overview .OverviewContainer13 .OverviewContainer1Text {
   height: 700px;
 }

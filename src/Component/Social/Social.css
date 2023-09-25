@@ -1,0 +1,37 @@
+.SocialM .social {
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+.SocialM .social li {
+  flex: 1;
+}
+.SocialM .social li span {
+  height: 18px;
+  width: 19px;
+}
+@media (max-width: 867px) {
+  .SocialM .social li span {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.SocialM .social li span img {
+  height: 18px;
+  width: 19px;
+}
+.SocialM .social li span:hover {
+  cursor: pointer;
+}
+@media (max-width: 867px) {
+  .SocialM .social li span {
+    height: 14px;
+    width: 7px;
+  }
+  .SocialM .social li span img {
+    height: 14px;
+    width: 7px;
+  }
+}/*# sourceMappingURL=Social.css.map */

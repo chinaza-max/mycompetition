@@ -1,0 +1,163 @@
+.Footer{
+    background-color: #100a1f;
+    height: 393px;
+    @media (max-width:1002px) {
+        height: fit-content;
+    }
+    .FooterContainer{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+        @media (max-width:867px) {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        >li{
+            flex: 1;
+            margin-top: 70px;
+         
+        }
+        .FooterContainer1{
+            flex: 2;
+            .label .getlinked {
+                color: transparent;
+                font-family: "ClashDisplay-Bold";
+                font-size: 36px;
+                font-weight: 700;
+                text-shadow: 0px 4px 4px #00000040;
+                @media (max-width:867px) {
+                  font-size: 15px;
+                  font-weight: 700;
+                  min-width:271px;
+                }
+               
+            }
+            .label .text-wrapper {
+                color: #ffffff;
+            }
+            .label .span {
+                color: #d434fe;
+            }
+            >div{
+                .terms{
+                    border-right: 1px solid #d434fe;
+                    padding-right: 20px;
+                }
+                .Privacy{
+                    padding-left: 20px;
+                }
+            }
+            .label2{
+                margin-top: 60px;
+            }
+            >p{
+                padding-top: 20px;
+            }
+        }
+        .FooterContainer2{
+            ul{
+                list-style: none;
+                display: flex;
+            }
+            >ul{
+                justify-content: space-between;
+                flex-direction: column;
+                height: 100%;
+                >li{
+                    flex: 1;
+                    .social{
+                        li{
+                            flex: 1;
+                            width: 65px;
+                            h4{
+                                color: #d434fe;
+                                font-family: 'Montserrat', sans-serif;
+                                font-size: 12px;
+                                font-weight: 400;
+                                padding-top: 5px;
+                            }
+                            span{
+                                height: 24px;
+                                width: 24px;
+                                img{
+                                    height: 24px;
+                                    width: 24px;
+                                }
+                            }
+                            span:hover{
+                                cursor: pointer;
+                            }
+                        }
+                       
+                    }
+                }
+                >li:nth-child(1){
+                    h4{
+                        color: #d434fe;
+                        font-family: "Montserrat-SemiBold", Helvetica;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                   
+                }
+            }
+
+        }
+        .FooterContainer3{
+            >ul{
+                list-style: none;
+                li{
+                    
+                    h4{
+                        color: #d434fe;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    p{
+                        position: relative;
+                        span{
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+
+                        }
+                        padding-left: 20px;
+                        width: 130px;
+                    }
+                }
+                .tel{
+                    margin-top: 20px;
+                    p{
+                        width: 200px;
+                    }
+                }
+                .location{
+                    margin-top: 20px;
+                    /*
+                    p{
+                       width: 170px;
+                       padding-left: 20px;
+                       position: ;
+                       span{
+                            
+                       }
+
+                    }
+                    */
+                }
+            }
+        }
+    }
+    >p{
+        text-align: center;
+        padding-top: 50px;
+        @media (max-width:956px) {
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+    }
+}

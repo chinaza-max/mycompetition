@@ -1,1 +1,351 @@
-/*# sourceMappingURL=Timeline.css.map */
+.TimelineM {
+  height: 1300px;
+}
+.TimelineM .head {
+  margin-top: 12px;
+}
+.TimelineM .head .label {
+  height: 43px;
+  width: 138px;
+  margin: 0 auto;
+}
+.TimelineM .head .label .text-wrapper {
+  color: #ffffff;
+  font-family: "ClashDisplay-Bold";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+@media (max-width: 867px) {
+  .TimelineM .head .label .text-wrapper {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.6px;
+    text-align: center;
+  }
+}
+.TimelineM .para .label {
+  height: 48px;
+  width: 341px;
+  margin: 0 auto;
+}
+.TimelineM .para .label .here-is-the {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: center;
+}
+.TimelineM .timeline {
+  position: relative;
+  margin: 5px auto;
+  padding: 40px 0;
+  width: 1000px;
+  box-sizing: border-box;
+}
+.TimelineM .timeline:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: #c5c5c5;
+}
+.TimelineM .timeline ul {
+  margin: 0;
+  padding: 0;
+}
+.TimelineM .timeline ul li {
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+.TimelineM .timeline ul li .container > h3 {
+  color: #d434fe;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (max-width: 867px) {
+  .TimelineM .timeline ul li .container > h3 {
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+.TimelineM .timeline ul li .container > p {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 23.9px;
+}
+@media (max-width: 867px) {
+  .TimelineM .timeline ul li .container > p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20.5px;
+  }
+}
+.TimelineM .timeline li:nth-child(odd) {
+  float: left;
+  text-align: right;
+  clear: both;
+}
+.TimelineM .timeline li:nth-child(even) {
+  float: right;
+  text-align: left;
+  clear: both;
+}
+.TimelineM .content {
+  padding-bottom: 20px;
+}
+.TimelineM .timeline li:nth-child(1):before {
+  content: "1";
+  position: absolute;
+  top: 24px;
+  right: -36px;
+  width: 53px;
+  text-align: center;
+  border-radius: 36.5px;
+  border: 10px solid #150E28;
+  line-height: 50px;
+  height: 53px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 100%);
+  box-shadow: 0 0 0 0 3px 233, 33, 99, 0.2;
+}
+.TimelineM .timeline li:nth-child(2):before {
+  content: "2";
+  position: absolute;
+  width: 53px;
+  border-radius: 36.5px;
+  border: 10px solid #150E28;
+  line-height: 50px;
+  height: 53px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 100%);
+  box-shadow: 0 0 0 0 3px 233, 33, 99, 0.2;
+  text-align: center;
+  position: absolute;
+  top: 24px;
+  left: -37px;
+  background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 100%);
+  box-sizing: 0 0 0 3px 233, 33, 99, 0.2;
+}
+.TimelineM .timeline li:nth-child(3):before {
+  content: "3";
+  position: absolute;
+  top: 24px;
+  right: -36px;
+  width: 53px;
+  text-align: center;
+  border-radius: 36.5px;
+  border: 10px solid #150E28;
+  line-height: 50px;
+  height: 53px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 100%);
+  box-shadow: 0 0 0 0 3px 233, 33, 99, 0.2;
+}
+.TimelineM .timeline li:nth-child(4):before {
+  content: "4";
+  position: absolute;
+  width: 53px;
+  border-radius: 36.5px;
+  border: 10px solid #150E28;
+  line-height: 50px;
+  height: 53px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 100%);
+  box-shadow: 0 0 0 0 3px 233, 33, 99, 0.2;
+  text-align: center;
+  position: absolute;
+  top: 24px;
+  left: -37px;
+  background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 100%);
+  box-sizing: 0 0 0 3px 233, 33, 99, 0.2;
+}
+.TimelineM .timeline li:nth-child(5):before {
+  content: "5";
+  position: absolute;
+  top: 24px;
+  right: -36px;
+  width: 53px;
+  text-align: center;
+  border-radius: 36.5px;
+  border: 10px solid #150E28;
+  line-height: 50px;
+  height: 53px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 100%);
+  box-shadow: 0 0 0 0 3px 233, 33, 99, 0.2;
+}
+.TimelineM .timeline li:nth-child(6):before {
+  content: "6";
+  position: absolute;
+  width: 53px;
+  border-radius: 36.5px;
+  border: 10px solid #150E28;
+  line-height: 50px;
+  height: 53px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 100%);
+  box-shadow: 0 0 0 0 3px 233, 33, 99, 0.2;
+  text-align: center;
+  position: absolute;
+  top: 24px;
+  left: -37px;
+  background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 100%);
+  box-sizing: 0 0 0 3px 233, 33, 99, 0.2;
+}
+.TimelineM .timeline ul li p {
+  margin: 10px 0 0;
+  padding: 0%;
+}
+.TimelineM .timeline ul li .time h4 {
+  margin: 0;
+  padding: 0;
+  color: #d434fe;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (max-width: 867px) {
+  .TimelineM .timeline ul li .time h4 {
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+.TimelineM .timeline li:nth-child(odd) .time {
+  position: absolute;
+  top: 35px;
+  right: -280px;
+  margin: 0;
+  padding: 8px 16px;
+}
+@media (max-width: 867px) {
+  .TimelineM .timeline li:nth-child(odd) .time {
+    top: 42px;
+    right: -161px;
+  }
+}
+@media (max-width: 768px) {
+  .TimelineM .timeline li:nth-child(odd) .time {
+    top: 90px;
+    right: 193px;
+  }
+}
+@media (max-width: 396px) {
+  .TimelineM .timeline li:nth-child(odd) .time {
+    top: 123px;
+    right: 193px;
+  }
+}
+.TimelineM .timeline li:nth-child(even) .time {
+  position: absolute;
+  top: 36px;
+  left: -276px;
+  margin: 0;
+  padding: 8px 16px;
+}
+@media (max-width: 867px) {
+  .TimelineM .timeline li:nth-child(even) .time {
+    top: 36px;
+    left: -167px;
+  }
+}
+@media (max-width: 767px) {
+  .TimelineM .timeline li:nth-child(even) .time {
+    top: 100px;
+    left: 20%;
+  }
+}
+@media (max-width: 396px) {
+  .TimelineM .timeline li:nth-child(even) .time {
+    top: 117px;
+    left: 61px;
+  }
+}
+.TimelineM h1 {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-size: 60px;
+  color: #c850c0;
+}
+@media (max-width: 1000px) {
+  .TimelineM .timeline {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .TimelineM h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 20px;
+  }
+  .TimelineM .timeline {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+  .TimelineM .timeline:before {
+    left: 20px;
+  }
+  .TimelineM .timeline li:nth-child(odd),
+  .TimelineM .timeline li:nth-child(even) {
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 767px) and (max-width: 766px) {
+  .TimelineM .timeline li:nth-child(odd),
+  .TimelineM .timeline li:nth-child(even) {
+    padding-left: 76px;
+  }
+}
+@media (max-width: 767px) {
+  .TimelineM .timeline li:nth-child(odd):before,
+  .TimelineM .timeline li:nth-child(even):before {
+    top: -18px;
+    left: 16px;
+    right: inherit;
+  }
+}
+@media (max-width: 767px) and (max-width: 766px) {
+  .TimelineM .timeline li:nth-child(odd):before,
+  .TimelineM .timeline li:nth-child(even):before {
+    top: 79px;
+    left: -10px;
+  }
+}
+@media (max-width: 767px) {
+  .TimelineM .timeline li:nth-child(odd).time,
+  .TimelineM .timeline li:nth-child(even).time {
+    top: -30px;
+    left: 50px;
+    right: inherit;
+  }
+}/*# sourceMappingURL=Timeline.css.map */

@@ -1,0 +1,39 @@
+.SocialM{
+    .social{
+        width: 180px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        li{
+            flex: 1;
+
+            span{
+                height: 18px;
+                width: 19px;
+               
+                @media (max-width:867px) {
+                    display: block;
+                    margin: 0 auto;
+                }
+                img{
+                    height: 18px;
+                    width: 19px;
+                }
+            }
+            span:hover{
+                cursor: pointer;
+            }
+            @media (max-width:867px) {
+                span{
+                    height: 14px;
+                    width: 7px;
+                    img{
+                        height: 14px;
+                        width: 7px;
+                    }
+                }
+              }
+        }
+    }
+}

@@ -20,16 +20,22 @@
                 .label {
                     height: 86px;
                     width: 253px;
+                    @media (max-width:867px) {
+                        margin: 0 auto;
+                    }
                 }  
                 .label .frequently-ask {
                     color: transparent;
-                    font-family: "Clash Display-Bold", Helvetica;
-                    font-size: 32px;
+                    font-family: "ClashDisplay-Bold";                    font-size: 32px;
                     font-weight: 700;
                     letter-spacing: 0;
                     line-height: 32px;
-                   
                     
+                    @media (max-width:867px) {
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
                 }
                 
                 .label .text-wrapper {
@@ -47,18 +53,23 @@
                 .label {
                     height: 55px;
                     width: 342px;
+                    @media (max-width:867px) {
+                        margin: 0 auto;
+                    }
                 }
                 
                 .label .we-got-answers-to {
                     color: #ffffff;
-                    font-family: "Montserrat-Regular", Helvetica;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;                    
                     font-size: 14px;
                     font-weight: 400;
                     letter-spacing: 0;
-                    line-height: 27.5px;
+
                     @media (max-width:867px) {
                         font-size: 12px;
-                        line-height: 27.5px;
+                        text-align: center;
                     }
                 }
                 

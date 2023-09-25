@@ -19,13 +19,25 @@
   height: 86px;
   width: 253px;
 }
+@media (max-width: 867px) {
+  .FAQ .FAQcontainer .FAQcontainerText .hearder .label {
+    margin: 0 auto;
+  }
+}
 .FAQ .FAQcontainer .FAQcontainerText .hearder .label .frequently-ask {
   color: transparent;
-  font-family: "Clash Display-Bold", Helvetica;
+  font-family: "ClashDisplay-Bold";
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 32px;
+}
+@media (max-width: 867px) {
+  .FAQ .FAQcontainer .FAQcontainerText .hearder .label .frequently-ask {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
 }
 .FAQ .FAQcontainer .FAQcontainerText .hearder .label .text-wrapper {
   color: #ffffff;
@@ -37,18 +49,24 @@
   height: 55px;
   width: 342px;
 }
+@media (max-width: 867px) {
+  .FAQ .FAQcontainer .FAQcontainerText .text .label {
+    margin: 0 auto;
+  }
+}
 .FAQ .FAQcontainer .FAQcontainerText .text .label .we-got-answers-to {
   color: #ffffff;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 27.5px;
 }
 @media (max-width: 867px) {
   .FAQ .FAQcontainer .FAQcontainerText .text .label .we-got-answers-to {
     font-size: 12px;
-    line-height: 27.5px;
+    text-align: center;
   }
 }
 .FAQ .FAQcontainer .FAQcontainerText .text .label .text-wrapper {

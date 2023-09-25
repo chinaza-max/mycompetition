@@ -1,1 +1,413 @@
-/*# sourceMappingURL=Register.css.map */
+.Register {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.Register .RegisterContainer {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer {
+    flex-wrap: wrap;
+  }
+}
+.Register .RegisterContainer > li {
+  width: 740px;
+  height: 740px;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer > li {
+    height: 900px;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div {
+  background-color: rgba(255, 255, 255, 0.031372549);
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
+  height: 740px;
+  width: 740px;
+  display: grid;
+  place-items: center;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div {
+    background-color: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+    width: 100%;
+    height: 450px;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form {
+  width: 585px;
+  /*
+  .inputfield{
+    background-color: #ffffff08;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 47px;
+    width: 100%;
+    color: #ffff;
+    margin-top: 30px;
+    padding-left: 10px; 
+  }
+  .inputfield::placeholder {
+      color: #ffff; 
+      padding: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+  }
+  .textarea{
+    height: 119px;
+    padding-top:10px ;
+  }     
+  */
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form {
+    width: 100%;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form > h2 {
+  color: #d434fe;
+  font-family: "ClashDisplay-Bold";
+  font-size: 32px;
+  font-weight: 400;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form > h2 {
+    display: none;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form > h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form > h1 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .be {
+  margin-top: 60px;
+  position: relative;
+  width: 300px;
+  margin-left: 0;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form .be {
+    margin: 0 auto;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .be .dot {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  background-color: #D434FE;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .be img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .be .man {
+  top: -20px;
+  left: 255px;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .be .woman {
+  top: -20px;
+  left: 230px;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form > p {
+  width: 300px;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form > p {
+    margin: 0 auto;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form > ul {
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  width: 580px;
+  padding: 0;
+  margin: 0;
+  margin-top: 60px;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form > ul {
+    flex-direction: column;
+    height: 150px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 65px;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form > ul li {
+  height: 47px;
+  width: 263px;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form > ul li {
+    height: 39px;
+    width: 263px;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form > ul li .inputfield {
+  background-color: rgba(255, 255, 255, 0.031372549);
+  border-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
+  height: 47px;
+  color: white;
+  width: 100%;
+  padding-left: 10px;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form > ul li label {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form > ul li .inputfield::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.2509803922);
+  font-size: 14px;
+  font-weight: 400;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form > ul li .inputfield::placeholder {
+  color: rgba(255, 255, 255, 0.2509803922);
+  font-size: 14px;
+  font-weight: 400;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form .dropDown {
+    flex-direction: row;
+    height: 150px;
+    justify-content: space-between;
+    width: 260px;
+  }
+  .Register .RegisterContainer .RegisterContainerForm > div > form .dropDown .dropDown1 {
+    width: 155px;
+  }
+  .Register .RegisterContainer .RegisterContainerForm > div > form .dropDown .dropDown2 {
+    width: 87px;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .button {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .button .box2 {
+  all: unset;
+  box-sizing: border-box;
+  height: 53px;
+  width: 100%;
+  text-align: none;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .button .box2 .register-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 53px;
+  width: 100%;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .button .box2 .overlap-group {
+  background: linear-gradient(225deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 56.42%, rgb(255, 38, 185) 99.99%, rgb(254, 52, 185) 100%);
+  border-radius: 4px;
+  height: 53px;
+  width: 558px;
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form .button .box2 .overlap-group {
+    width: 172px;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .button .box2 .overlap-group:hover {
+  background-color: rgb(0, 128, 255);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .button .box2 .overlap-group:active {
+  background-color: rgb(0, 64, 128);
+  transform: scale(0.95);
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .button .box2 .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  left: 52px;
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .please {
+  color: #ff25b8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form .please {
+    margin-top: 30px;
+  }
+}
+.Register .RegisterContainer .RegisterContainerForm > div > form .centered-checkbox .agreed {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form .centered-checkbox .agreed {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerForm > div > form .centered-checkbox {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+.Register .RegisterContainer .RegisterContainerImg {
+  background-image: url("../../assets/images/man.png");
+  background-size: 717px 717px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerImg {
+    height: 262px;
+  }
+}
+@media (max-width: 867px) {
+  .Register .RegisterContainer .RegisterContainerImg {
+    background-size: 195px 155px;
+  }
+}
+.Register .RegisterOverLay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(21, 14, 40, 0.9294117647);
+  z-index: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Register .RegisterOverLay .RegisterOverLayContainer {
+  height: 664px;
+  width: 699px;
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 664px;
+  width: 699px;
+  border: 1px solid;
+  border-color: #d434fe;
+  border-radius: 5px;
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 li {
+  flex: 1;
+  width: 100%;
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer12 .button {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer12 .button .box2 {
+  all: unset;
+  box-sizing: border-box;
+  height: 53px;
+  width: 100%;
+  text-align: none;
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer12 .button .box2 .register-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 53px;
+  width: 100%;
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer12 .button .box2 .overlap-group {
+  background: linear-gradient(225deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 56.42%, rgb(255, 38, 185) 99.99%, rgb(254, 52, 185) 100%);
+  border-radius: 4px;
+  height: 53px;
+  width: 558px;
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+@media (max-width: 867px) {
+  .Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer12 .button .box2 .overlap-group {
+    width: 172px;
+  }
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer12 .button .box2 .overlap-group:hover {
+  background-color: rgb(0, 128, 255);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer12 .button .box2 .overlap-group:active {
+  background-color: rgb(0, 64, 128);
+  transform: scale(0.95);
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer12 .button .box2 .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  left: 52px;
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer12 h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer12 p {
+  text-align: center;
+}
+.Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer11 {
+  background-image: url("../../assets/images/happy.png"), url("../../assets/images/check.png");
+  background-size: 305px 305px, 288px 288px;
+  background-position: 70% 50%, 30% 50%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 867px) {
+  .Register .RegisterOverLay .RegisterOverLayContainer .RegisterOverLayContainer1 .RegisterOverLayContainer11 {
+    background-size: 184.92px 182.92px, 174.62px 174.62px;
+  }
+}/*# sourceMappingURL=Register.css.map */

@@ -1,3 +1,250 @@
-.testcase {
-  display: block;
+.Contact {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 40px;
+}
+.Contact .Contact1 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+  border: 1px solid blue;
+}
+@media (max-width: 867px) {
+  .Contact .Contact1 {
+    display: none;
+  }
+}
+@media (max-width: 935px) {
+  .Contact .Contact1 {
+    width: 95%;
+  }
+}
+.Contact .Contact1 > li {
+  width: 700px;
+  border: 1px solid red;
+}
+.Contact .Contact1 .Contact1Form > div {
+  border: 1px solid red;
+  background-color: rgba(255, 255, 255, 0.031372549);
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
+  height: 611px;
+  width: 617px;
+  display: grid;
+  place-items: center;
+}
+.Contact .Contact1 .Contact1Form > div > form {
+  width: 437px;
+}
+.Contact .Contact1 .Contact1Form > div > form h2 {
+  color: #d434fe;
+  font-family: "ClashDisplay-Bold";
+  font-size: 20px;
+  font-weight: 400;
+}
+.Contact .Contact1 .Contact1Form > div > form .inputfield {
+  background-color: rgba(255, 255, 255, 0.031372549);
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
+  height: 47px;
+  width: 100%;
+  color: white;
+  margin-top: 30px;
+  padding-left: 10px;
+}
+.Contact .Contact1 .Contact1Form > div > form .inputfield::-moz-placeholder {
+  color: white;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Contact .Contact1 .Contact1Form > div > form .inputfield::placeholder {
+  color: white;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Contact .Contact1 .Contact1Form > div > form .textarea {
+  height: 119px;
+  padding-top: 10px;
+}
+.Contact .Contact1 .Contact1Form > div > form .button {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.Contact .Contact1 .Contact1Form > div > form .button .box2 {
+  all: unset;
+  box-sizing: border-box;
+  height: 53px;
+  width: 172px;
+  text-align: none;
+}
+.Contact .Contact1 .Contact1Form > div > form .button .box2 .register-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 53px;
+  width: 174px;
+}
+.Contact .Contact1 .Contact1Form > div > form .button .box2 .overlap-group {
+  background: linear-gradient(225deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 56.42%, rgb(255, 38, 185) 99.99%, rgb(254, 52, 185) 100%);
+  border-radius: 4px;
+  height: 53px;
+  width: 172px;
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+.Contact .Contact1 .Contact1Form > div > form .button .box2 .overlap-group:hover {
+  background-color: rgb(0, 128, 255);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.Contact .Contact1 .Contact1Form > div > form .button .box2 .overlap-group:active {
+  background-color: rgb(0, 64, 128);
+  transform: scale(0.95);
+}
+.Contact .Contact1 .Contact1Form > div > form .button .box2 .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  left: 52px;
+}
+.Contact .Contact1 .Contact1Text > h2 {
+  color: #d434fe;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 120px;
+}
+.Contact .Contact1 .Contact1Text > p {
+  margin-top: 10px;
+}
+.Contact .Contact1 .Contact1Text > h6 {
+  color: #d434fe;
+  font-family: "ClashDisplay-Bold";
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.Contact .contact2 {
+  display: none;
+}
+@media (max-width: 867px) {
+  .Contact .contact2 {
+    display: block;
+  }
+  .Contact .contact2 > div {
+    border-radius: 12px;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+    place-items: center;
+    padding-top: 40px;
+  }
+  .Contact .contact2 > div > form {
+    width: 298px;
+  }
+  .Contact .contact2 > div > form h2 {
+    color: #d434fe;
+    font-family: "ClashDisplay-Bold";
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .Contact .contact2 > div > form p {
+    margin-top: 20px;
+  }
+  .Contact .contact2 > div > form .inputfield {
+    background-color: rgba(255, 255, 255, 0.031372549);
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
+    height: 47px;
+    width: 100%;
+    color: white;
+    margin-top: 30px;
+    padding-left: 10px;
+  }
+  .Contact .contact2 > div > form .inputfield::-moz-placeholder {
+    color: white;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .Contact .contact2 > div > form .inputfield::placeholder {
+    color: white;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .Contact .contact2 > div > form .textarea {
+    height: 119px;
+    padding-top: 10px;
+  }
+  .Contact .contact2 > div > form .button {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .Contact .contact2 > div > form .button .box2 {
+    all: unset;
+    box-sizing: border-box;
+    height: 53px;
+    width: 172px;
+    text-align: none;
+  }
+  .Contact .contact2 > div > form .button .box2 .register-button {
+    all: unset;
+    box-sizing: border-box;
+    height: 53px;
+    width: 174px;
+  }
+  .Contact .contact2 > div > form .button .box2 .overlap-group {
+    background: linear-gradient(225deg, rgb(144, 58, 255) 0%, rgb(212, 52, 254) 56.42%, rgb(255, 38, 185) 99.99%, rgb(254, 52, 185) 100%);
+    border-radius: 4px;
+    height: 53px;
+    width: 172px;
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+  }
+  .Contact .contact2 > div > form .button .box2 .overlap-group:hover {
+    background-color: rgb(0, 128, 255);
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .Contact .contact2 > div > form .button .box2 .overlap-group:active {
+    background-color: rgb(0, 64, 128);
+    transform: scale(0.95);
+  }
+  .Contact .contact2 > div > form .button .box2 .text-wrapper {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    left: 52px;
+  }
+  .Contact .contact2 > div > h6 {
+    color: #d434fe;
+    font-family: "ClashDisplay-Bold";
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
 }/*# sourceMappingURL=Contact.css.map */

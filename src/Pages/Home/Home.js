@@ -11,7 +11,10 @@ import star1 from "../../assets/images/star1.png"
 import Overview from "../../Layout/OverviewM/Overview"
 import FAQ from "../../Layout/FAQ/FAQ"
 import Timeline from '../../Layout/Timeline/Timeline';
-
+import Price from '../../Layout/Price/Price';
+import Partner from '../../Layout/Partner/Partner';
+import Privacy from "../../Layout/Privacy/Privacy"
+import Footer from "../../Layout/Footer/Footer"
 
 
 export default function Home() {
@@ -143,12 +146,28 @@ export default function Home() {
         <FAQ/>
       </div>
     
-
-      
       <div className='HomeTimeline' >
         <Timeline/>
       </div>
 
+      <div className='HomePrice' >
+        <Price/>
+      </div>
+
+      <div className='HomePartner' >
+        <Partner/>
+      </div>
+
+      <div className='HomePrivacy' >
+        <Privacy/>
+      </div>
+
+
+      <div className='HomePrivacy' >
+        <Footer/>
+      </div>
+
+      
     </div>
   )
 }

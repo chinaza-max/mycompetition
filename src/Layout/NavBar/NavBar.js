@@ -5,9 +5,14 @@ import Button   from  '../../Component/Button/Button';
 import menu from "../../assets/images/menu.png"
 import close from "../../assets/images/close.png"
 import closeCircle from "../../assets/images/closeCircle.png"
+import { useNavigate} from 'react-router-dom';
+
+
+
 
 export default function NavBar() {
     const [toggleMenu,setToggleMenu]=useState(true);
+    const navigate = useNavigate();
 
 
     const toggleMenuStyles = {
@@ -22,6 +27,9 @@ export default function NavBar() {
         transform: toggleMenu ? 'translateY(20px)' : 'translateY(0)', // Add landing effect
       };
   
+      const handleNavigation = () => {
+        navigate('/'); 
+      };
 
     useEffect(()=>{
 
@@ -36,7 +44,7 @@ export default function NavBar() {
         <ul>
             <li className='logo'>
                 <div className="label">
-                    <p className="getlinked">
+                    <p className="getlinked" onClick={handleNavigation}>
                         <span className="text-wrapper">get</span>
                         <span className="span">linked</span>
                     </p>

@@ -1,3 +1,265 @@
-    .testcase{
-      display: block;
+
+.Contact{
+  height: fit-content;
+  padding-bottom: 40px;
+  .Contact1{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    list-style: none;
+    border: 1px solid blue;
+    @media (max-width:867px) {
+      display: none;
     }
+    @media(max-width:935px) {
+      width: 95%;
+    }
+    >li{
+      width: 700px;
+      border:1px  solid  red ;
+    }
+    .Contact1Form{
+
+      >div{
+        border: 1px solid red;
+        background-color: #ffffff08;
+        border-radius: 12px;
+        box-shadow: 0px 4px 4px #00000040;
+        height: 611px;
+        width: 617px;
+        display: grid;
+        place-items: center;
+        >form{
+            width: 437px;
+            h2{
+              color: #d434fe;
+              font-family: "ClashDisplay-Bold";
+              font-size: 20px;
+              font-weight: 400;
+
+            }
+            .inputfield{
+              background-color: #ffffff08;
+              border: 1px solid;
+              border-color: #ffffff;
+              border-radius: 4px;
+              box-shadow: 0px 4px 4px #00000040;
+              height: 47px;
+              width: 100%;
+              color: #ffff;
+              margin-top: 30px;
+              padding-left: 10px; 
+            }
+            .inputfield::placeholder {
+                color: #ffff; 
+                padding: 20px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+            }
+            .textarea{
+              height: 119px;
+              padding-top:10px ;
+            }     
+            
+            .button{
+                width: fit-content;
+                margin: 0 auto;
+                margin-top: 30px;
+              .box2 {
+                all: unset;
+                box-sizing: border-box;
+                height: 53px;
+                width: 172px;
+                text-align: none;
+              }
+    
+              .box2 .register-button {
+                all: unset;
+                box-sizing: border-box;
+                height: 53px;
+                width: 174px;
+              }
+              .box2 .overlap-group {
+    
+                background: linear-gradient(
+                225deg,
+                rgb(144, 58, 255) 0%,
+                rgb(212, 52, 254) 56.42%,
+                rgb(255, 37.9, 184.51) 99.99%,
+                rgb(254, 52, 185.32) 100%);
+                border-radius: 4px;
+                height: 53px;
+                width: 172px;
+                display: flex; /* Use flexbox layout */
+                justify-content: center; /* Center horizontally */
+                align-items: center;
+                
+              }
+    
+    
+              .box2 .overlap-group:hover {
+                background-color: rgb(0, 128, 255);
+                transform: scale(1.05);
+                cursor: pointer;
+              }
+    
+              .box2 .overlap-group:active {
+                background-color: rgb(0, 64, 128);
+                transform: scale(0.95);
+              }
+              .box2 .text-wrapper {
+                color: #ffffff;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                left: 52px;
+              }
+            }
+          
+          
+        }
+      }
+      
+    }
+    .Contact1Text{
+      >h2{
+        color: #d434fe;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        margin-top: 120px;
+      }
+      >p{
+        margin-top: 10px;
+      }
+      >h6{
+        color: #d434fe;
+        font-family: "ClashDisplay-Bold";
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .contact2{
+    display: none;
+    @media (max-width:867px) {
+      display: block;
+      >div{
+        border-radius: 12px;
+        height: fit-content;
+        width: 100%;
+        display: grid;
+        margin: 0 auto;
+        place-items: center;
+        padding-top: 40px;
+        >form{
+            width: 298px;
+            h2{
+              color: #d434fe;
+              font-family: "ClashDisplay-Bold";
+              font-size: 20px;
+              font-weight: 400;
+
+            }
+            p{
+              margin-top: 20px;
+            }
+            .inputfield{
+              background-color: #ffffff08;
+              border: 1px solid;
+              border-color: #ffffff;
+              border-radius: 4px;
+              box-shadow: 0px 4px 4px #00000040;
+              height: 47px;
+              width: 100%;
+              color: #ffff;
+              margin-top: 30px;
+              padding-left: 10px; 
+            }
+            .inputfield::placeholder {
+                color: #ffff; 
+                padding: 20px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+            }
+            .textarea{
+              height: 119px;
+              padding-top:10px ;
+            }     
+            
+            .button{
+                width: fit-content;
+                margin: 0 auto;
+                margin-top: 30px;
+              .box2 {
+                all: unset;
+                box-sizing: border-box;
+                height: 53px;
+                width: 172px;
+                text-align: none;
+              }
+    
+              .box2 .register-button {
+                all: unset;
+                box-sizing: border-box;
+                height: 53px;
+                width: 174px;
+              }
+              .box2 .overlap-group {
+    
+                background: linear-gradient(
+                225deg,
+                rgb(144, 58, 255) 0%,
+                rgb(212, 52, 254) 56.42%,
+                rgb(255, 37.9, 184.51) 99.99%,
+                rgb(254, 52, 185.32) 100%);
+                border-radius: 4px;
+                height: 53px;
+                width: 172px;
+                display: flex; /* Use flexbox layout */
+                justify-content: center; /* Center horizontally */
+                align-items: center;
+                
+              }
+    
+    
+              .box2 .overlap-group:hover {
+                background-color: rgb(0, 128, 255);
+                transform: scale(1.05);
+                cursor: pointer;
+              }
+    
+              .box2 .overlap-group:active {
+                background-color: rgb(0, 64, 128);
+                transform: scale(0.95);
+              }
+              .box2 .text-wrapper {
+                color: #ffffff;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                left: 52px;
+              }
+            }
+          
+        }
+        >h6{
+          color: #d434fe;
+          font-family: "ClashDisplay-Bold";
+          margin-top: 60px;
+          font-size: 16px;
+          font-weight: 400;
+          margin-bottom: 10px;
+        }
+      }
+      
+    }
+
+  }
+
+}

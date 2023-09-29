@@ -11,7 +11,6 @@ import Swal from 'sweetalert2'
 
 export default function Register() {
 
-
   const [complete, setComplete] = useState(false); 
   const [data, setData] = useState([]); 
 

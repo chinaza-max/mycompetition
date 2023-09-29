@@ -212,6 +212,10 @@
     width: 87px;
   }
 }
+.Register .RegisterContainer .RegisterContainerForm > div > form .dropDown > li > select > option {
+  background-color: #fff; /* Background color of options */
+  color: #333;
+}
 .Register .RegisterContainer .RegisterContainerForm > div > form .button {
   width: -moz-fit-content;
   width: fit-content;

@@ -159,6 +159,14 @@
                                 width: 87px;
                             }
                         }
+                        >li {
+                            >select{
+                                >option{
+                                    background-color: #fff; /* Background color of options */
+                                    color: #333; 
+                                }
+                            }
+                        }
                     }
                     /*
                     .inputfield{

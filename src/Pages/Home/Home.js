@@ -18,6 +18,14 @@ import Footer from "../../Layout/Footer/Footer"
 
 
 
+
+
+
+
+
+
+
+
 export default function Home() {
   const [navName,setNavName]=useState("");
   const OverViewRef = useRef(null);
@@ -76,7 +84,7 @@ export default function Home() {
       }, 9);
     }
 
-  })
+  },[])
 
   return (
     <div className='Home'>

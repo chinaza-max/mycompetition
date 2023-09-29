@@ -9,7 +9,7 @@ import overlay from "../../assets/images/overlay.png"
 export default function Price() {
   return (
     <div className='Price'>
-        <img src={overlay}/>
+        <img src={overlay} alt='cant load'/>
         <div className='PriceHead'>
             <div className="label">
                 <p className="prizes-and-rewards">
@@ -37,20 +37,20 @@ export default function Price() {
                         <p className='Runner'>Runner</p>
                         <h3>N300,000</h3>
 
-                        <img  src={silver_medal}/>
+                        <img  src={silver_medal} alt='cant load'/>
                     </li>
                     <li className='PriceContainerPriceContainer2'>
                         <p className='position'>1nd</p>
                         <p className='Runner'>Runner</p>
                         <h3>N300,000</h3>
-                        <img src={gold_medal}/>
+                        <img src={gold_medal} alt="cant load"/>
 
                     </li>
                     <li className='PriceContainerPriceContainer3'>
                         <p className='position'>3nd</p>
                         <p className='Runner'>Runner</p>
                         <h3>N300,000</h3>
-                        <img src={bronze_medal}/>
+                        <img src={bronze_medal} alt='cant load'/>
 
                     </li>
 

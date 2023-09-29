@@ -64,23 +64,21 @@ export default function NavBar() {
             <li className='linksContainer'>
                 <ul>  
                     <li  className='links'>
-                        <NavLink to={"/Home"}  
+                        <NavLink  onClick={()=>localStorage.setItem("moveToTimeLine",true)} to={"/"} 
                             activeclassname=".active-link">
                             Timeline 
-
                         </NavLink>
                     </li>
 
                     <li className='links links2'>
-                        <NavLink to={"/keke"}>
+                        <NavLink onClick={()=>localStorage.setItem("moveToOverView",true)} to={"/"}>
                             Overview    
                         </NavLink>
                     </li>
 
                     <li className='links links2'>
-                        <NavLink to={"/loel"}>
+                        <NavLink onClick={()=>localStorage.setItem("moveToFAQ",true)} to={"/"}>
                         FAQs 
-
                         </NavLink>
                     </li>
 

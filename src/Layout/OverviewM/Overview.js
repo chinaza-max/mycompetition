@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Overview.css";
 import Card from "../../Component/CardM/Card"
-import starPu from "../../assets/images/starPu.png"
-import sataGra1 from "../../assets/images/sata-gra1.png"
-import arrow from "../../assets/images/arrow.png"
-import star from "../../assets/images/star.png"
-import star2 from "../../assets/images/star (3).png"
+//import starPu from "../../assets/images/starPu.png"
+//import sataGra1 from "../../assets/images/sata-gra1.png"
+//import arrow from "../../assets/images/arrow.png"
+//import star from "../../assets/images/star.png"
+//import star2 from "../../assets/images/star (3).png"
 import Button from "../../Component/Button/Button"
 
 export default function Overview() {

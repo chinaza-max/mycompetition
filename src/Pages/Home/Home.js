@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef,useEffect ,useState } from 'react';
 import './Home.css';
 import NavBar from "../../Layout/NavBar/NavBar"
 import curve from "../../assets/images/curve.png"
@@ -15,32 +15,75 @@ import Price from '../../Layout/Price/Price';
 import Partner from '../../Layout/Partner/Partner';
 import Privacy from "../../Layout/Privacy/Privacy"
 import Footer from "../../Layout/Footer/Footer"
-import   { useRef } from 'react';
 
 
 
 export default function Home() {
+  const [navName,setNavName]=useState("");
+  const OverViewRef = useRef(null);
+  const TimelineRef = useRef(null);
+  const FAQRef = useRef(null);
 
-  const sectionRef = useRef(null);
   
-
-
-
-
-
-
-
-
-
-
-  const scrollToSection = () => {
-    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+  const scrollToOverView = () => {
+    OverViewRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToTimeline = () => {
+    TimelineRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToFAQRef = () => {
+    FAQRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
 
+
+  useEffect(()=>{
+
+
+    let moveToTimeLine=localStorage.getItem("moveToTimeLine")
+    let moveToOverView=localStorage.getItem("moveToOverView")
+    let moveToFAQ=localStorage.getItem("moveToFAQ")
+
+    if(moveToTimeLine){
+
+      TimelineRef.current.scrollIntoView({ behavior: 'smooth' });
+      localStorage.removeItem('moveToTimeLine');
+      setNavName("Timeline")
+      setTimeOutFunction()
+
+    }
+    else if(moveToOverView){
+
+      OverViewRef.current.scrollIntoView({ behavior: 'smooth' });
+      localStorage.removeItem('moveToOverView');
+      setNavName("Overview")
+      setTimeOutFunction()
+
+    }
+    else if(moveToFAQ){
+
+      FAQRef.current.scrollIntoView({ behavior: 'smooth' });
+      localStorage.removeItem('moveToFAQ');
+      setNavName("FAQs")
+      setTimeOutFunction()
+
+    } 
+
+    function setTimeOutFunction(){
+      setTimeout(() => {
+        setNavName("")
+
+      }, 9);
+    }
+
+  })
+
   return (
     <div className='Home'>
-      <NavBar  scrollToSectionP={scrollToSection} />
+      <NavBar  scrollToOverViewP={scrollToOverView} 
+      scrollToTimelineP={scrollToTimeline} 
+      scrollToFAQRefP={scrollToFAQRef}
+      navNameP={navName}/>
        
       <div className='HomeComtainer1'>
 
@@ -158,15 +201,15 @@ export default function Home() {
 
       </div>
 
-      <div className='HomeOview'   id="scrollSection" ref={sectionRef} >
+      <div className='HomeOview'   ref={OverViewRef} >
       <Overview/>
       </div>
 
-      <div className='HomeFAQ' >
+      <div className='HomeFAQ' ref={FAQRef}>
         <FAQ/>
       </div>
     
-      <div className='HomeTimeline' >
+      <div className='HomeTimeline' ref={TimelineRef}>
         <Timeline/>
       </div>
 

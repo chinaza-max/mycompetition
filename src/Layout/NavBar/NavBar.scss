@@ -171,7 +171,8 @@
                 font-family: 'Montserrat', sans-serif;
                 font-size: 16px;
                 font-weight: 400;
-              }   
+              } 
+              
             }
             :nth-child(2){
               margin-top: 20px;
@@ -237,13 +238,7 @@
           margin: 79px  auto 0px auto;
          
           >li{
-            a{
-              text-decoration: none;
-              color: #ffff;
-              font-family: 'Montserrat', sans-serif;
-              font-size: 16px;
-              font-weight: 400;
-            }
+
             .active{
               -webkit-background-clip: text !important;
               -webkit-text-fill-color: transparent;
@@ -251,9 +246,34 @@
               background-clip: text;
               color: transparent;
               font-family: 'Montserrat', sans-serif;
+              
+            }  
+            a{
+              text-decoration: none;
+              color: #ffff;
+              background:transparent;
+              font-family: 'Montserrat', sans-serif;
               font-size: 16px;
               font-weight: 400;
-            }         
+            }
+           
+            .link{
+                color: #ffff;
+                -webkit-background-clip: initial !important;
+                -webkit-text-fill-color: initial !important;
+                background: initial;
+                background-clip: text;
+            }
+            
+            #activeSection{
+              -webkit-background-clip: text !important;
+              -webkit-text-fill-color: transparent;
+              background: linear-gradient(180deg, rgb(144, 58, 255) 0%, rgb(255, 37.9, 184.51) 100%);
+              background-clip: text;
+              color: transparent;
+           
+            } 
+              
           }
         }
         

@@ -11,6 +11,23 @@ import { useNavigate} from 'react-router-dom';
 
 export default function NavBar(props) {
     const [toggleMenu,setToggleMenu]=useState(true);
+    const [NavState, setNavState] = useState({
+        property1: false,
+        property2: false,
+        property3: false,
+      });
+
+
+    const updateNavState = (property1, property2, property3) => {
+
+        setNavState({
+            property1, 
+            property2,
+            property3,
+        });
+    };
+
+
     const navigate = useNavigate();
 
 
@@ -19,28 +36,65 @@ export default function NavBar(props) {
         transition: toggleMenu ? 'top 0.6s ease-out' : 'top 0.9s ease-in', // Use ease-out when hiding and ease-in when showing
         position: 'absolute', 
         right: '0'
-      };
-      const listItemStyles = {
-        opacity: toggleMenu ? 0 : 1, // Set opacity to 0 when hiding the menu
-        transition: 'opacity 2s ease , transform 3s ease', // Add a smooth opacity transition
-        transform: toggleMenu ? 'translateY(20px)' : 'translateY(0)', // Add landing effect
-      };
+    };
+    const listItemStyles = {
+    opacity: toggleMenu ? 0 : 1, // Set opacity to 0 when hiding the menu
+    transition: 'opacity 2s ease , transform 3s ease', // Add a smooth opacity transition
+    transform: toggleMenu ? 'translateY(20px)' : 'translateY(0)', // Add landing effect
+    };
   
-      const handleNavigation = () => {
+    const handleNavigation = () => {
         navigate('/'); 
-      };
+    };
+      
+    const scrollToOverView = () => {
+        props.scrollToOverViewP()
+    };
 
+    const scrollToTimeline= () => {
+        props.scrollToTimelineP()
+    };
+
+    const scrollToFAQRef= () => {
+        props.scrollToFAQRefP()
+    };
+
+    
     useEffect(()=>{
 
+        let timer=null
+        if(props.navNameP==="Timeline"){
+            setTimeOutFunction(true, false, false)
+        }
+        else if(props.navNameP==="Overview"){
+            setTimeOutFunction(false, true, false)
+        }
+        else if(props.navNameP==="FAQs"){ 
+            setTimeOutFunction(false, false, true)
+        }
+        else{
+            if(timer){
+                clearTimeout(timer);
+            }
+        }
 
-        
-    },[toggleMenu])
+
+        function setTimeOutFunction(value1,value2,value3){
+
+            timer =setTimeout(() => {
+                updateNavState(value1, value2, value3)
+            }, 5);
+
+        }
 
 
+    },[toggleMenu ,NavState,props.navNameP])
+    
 
   return (
     <div className="NavBar">
         <ul>
+
             <li className='logo'>
                 <div className="label">
                     <p className="getlinked" onClick={handleNavigation}>
@@ -53,28 +107,30 @@ export default function NavBar(props) {
             <li className='linksContainer'>
                 <ul>  
                     <li  className='links'>
-                        <NavLink to={"/Home"}  
-                            activeclassname=".active-link">
-                            Timeline 
-
+                        <NavLink to={"/#"}  className="link" 
+                            onClick={ ()=>{ updateNavState(true, false, false);scrollToTimeline()} }
+                            id={NavState.property1?"activeSection":"" }>
+                            Timeline
                         </NavLink>
                     </li>
 
                     <li className='links links2'>
-                        <NavLink to={"/Home"}>
+                        <NavLink to={"/#"} className="link"   onClick={ ()=>{ updateNavState(false, true, false);scrollToOverView() } }
+                            id={NavState.property2?"activeSection":"" }>
                             Overview    
                         </NavLink>
                     </li>
 
                     <li className='links links2'>
-                        <NavLink to={"/Home"}>
+                        <NavLink to={"/#"} className="link"  onClick={ ()=>{ updateNavState(false, false, true); scrollToFAQRef()}  }
+                            id={NavState.property3?"activeSection":"" }>
                         FAQs 
 
                         </NavLink>
                     </li>
 
                     <li className='links links2'>
-                        <NavLink to={"/Contact"}>
+                        <NavLink to={"/Contact"}  onClick={ ()=> updateNavState(false, false, false)  }>
 
                         Contact 
                         
@@ -154,14 +210,6 @@ export default function NavBar(props) {
 
         </ul>
 
-       
     </div>  
   )
 }
-
-/**  
- * 
- * 
- * style={{ display: isContactPage ?'block'  : 'none' }}
-*/
-

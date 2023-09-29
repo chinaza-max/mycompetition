@@ -56,7 +56,7 @@ export default function Quote() {
                 items[i].setAttribute('aria-expanded', 'false');
             }
 
-            if (itemToggle == 'false') {
+            if (itemToggle === 'false') {
                 this.setAttribute('aria-expanded', 'true');
             }
         }
@@ -80,7 +80,7 @@ export default function Quote() {
             <button id="accordion-button-1" aria-expanded="false">
                 <span className="accordion-title">Can I work on a project I started before the hackathon?</span>
                 <span className="icon" aria-hidden="true">
-                    <img src={plus}/>
+                    <img src={plus} alt='cant load'/>
                 </span>
             </button>
             <div className="accordion-content">
@@ -95,7 +95,7 @@ export default function Quote() {
             <button id="accordion-button-2" aria-expanded="false">
                 <span className="accordion-title">What happens if I need help during the hackathon?</span>
                 <span className="icon" aria-hidden="true">
-                    <img src={plus}/>
+                    <img src={plus} alt='cant load'/>
                 </span>            </button>
             <div className="accordion-content">
                 <p>
@@ -109,7 +109,7 @@ export default function Quote() {
             <button id="accordion-button-3" aria-expanded="false">
                 <span className="accordion-title">What happens if I don't have an idea for a project?</span>
                 <span className="icon" aria-hidden="true">
-                    <img src={plus}/>
+                    <img src={plus} alt='cant load'/>
                 </span>            </button>
             <div className="accordion-content">
                 <p>
@@ -123,7 +123,7 @@ export default function Quote() {
             <button id="accordion-button-4" aria-expanded="false">
                 <span className="accordion-title">Can I join a team or do I have to come with one?</span>
                 <span className="icon" aria-hidden="true">
-                    <img src={plus}/>
+                    <img src={plus} alt='cant load'/>
                 </span>            </button>
             <div className="accordion-content">
                 <p>
@@ -137,7 +137,7 @@ export default function Quote() {
             <button id="accordion-button-5" aria-expanded="false">
                 <span className="accordion-title">What happens after the hackathon ends</span>
                 <span className="icon" aria-hidden="true">
-                    <img src={plus}/>
+                    <img src={plus} alt='cant load'/>
                 </span>            </button>
             <div className="accordion-content">
                 <p>
@@ -152,7 +152,7 @@ export default function Quote() {
             <button id="accordion-button-5" aria-expanded="false">
                 <span className="accordion-title">Can I work on a project I started before the hackathon?</span>
                 <span className="icon" aria-hidden="true">
-                    <img src={plus}/>
+                    <img src={plus} alt='cant load'/>
                 </span>            </button>
             <div className="accordion-content">
                 <p>
